@@ -1,0 +1,1092 @@
+/* Basic */
+
+* {	margin: 0;	padding: 0;}
+
+body {
+    text-align: center;
+    font-size: 90%;
+    font-family: "銉°偆銉偑", Meiryo, "銉掋儵銈儙瑙掋偞 Pro W3", "Hiragino Kaku Gothic Pro","锛汲 锛般偞銈枫儍銈�", "MS PGothic", Osaka, sans-serif;
+    color: #333;
+}
+
+
+.ClearFix {
+    display: block;
+    overflow: hidden;
+}
+.ClearFix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+span.OneWord{ white-space:nowrap; word-break:keep-all;}	/*鍗樿獮銈掗€斾腑銇ф敼琛屻仐銇亜*/
+
+ul, li, dd, dt	{list-style:none;}
+
+/*銈广偪銈ゃ儷銇ゃ亶銇儶銈广儓*/
+ol,ul.Disc{padding-left:2em;}
+ol li{list-style-type:decimal;} /*鐣彿*/
+ul.Disc li{list-style: disc; line-height:1.4; padding-bottom:0.4em;} /*銉夈儍銉�*/
+li.Disc{list-style: disc;margin-left:2em;padding:0.3em 0 0.3em;} /*銉夈儍銉�*/
+
+dl {margin-bottom:1em;}
+dl.DlBasis dt {font-weight: bold;}/*dd鍗樻暟鐢�*/
+dl.DlBasis dd {margin:0 0 10px 1em;}
+dl.DlBasis2 dt {font-weight: bold; line-height:1.4; margin-bottom:0.4em;}/*dd瑜囨暟鐢�*/
+dl.DlBasis2 dd {margin-left:1em;}
+dl.DlBasis2 dd.last,dl.DlBasis dd.last {margin-bottom:10px;}/*dd銇笅杈恒伀绌恒亶銈掕拷鍔�*/
+dl.DlBasis3 {border-left:1px solid #F0F0F0;}/*dt銇儗鏅壊 绲備簡銈汇儫銉娿兗銇娇鐢�*/
+dl.DlBasis3 dt {font-weight: bold; line-height:1.4; margin-bottom:0.4em; padding:3px 0 3px 18px; background-color:#F0F0F0;}
+dl.DlBasis3 dd {margin-left:1em;}
+dl.AdIco {margin: 0 0 0 20px;}/*dt銇换鎰忋伄銈ゃ儭銉笺偢銈掗厤缃仐銆佹í銇玠d銈掍甫銇广倠*/
+dl.AdIco dt {clear:left;float: left;font-weight: bold;padding: 5px 0 0; width: 29px;}
+dl.AdIco dd {padding: 5px 0 5px 34px;}
+dl.AdLogo {}/*dt銇儹銈淬倰閰嶇疆銇椼€佹í銇玠d銈掍甫銇广倠 SDB姗熻兘绱逛粙銉堛儍銉�*/
+dl.AdLogo dt { float:left; width:170px; min-height:80px;}
+dl.AdLogo dd { margin-left:170px;}
+dl.TimeTable{}
+dl.TimeTable dt { background:#F6F6F6;}
+dl.TimeTable dd {padding:0 0 0 8em; position:relative; top:-1.5em;}
+
+dl.DlFunction {}銆€/*SDB姗熻兘绱逛粙銉堛儍銉�*/
+/*dl.DlFunction dt { width:120px; float:left; clear:both;}
+/*dl.DlFunction dd { margin-left:130px; height:1px/*forIE6*}/
+dl.Talk{ position:relative;}/*銆€搴ц珖浼氥兓瀵捐珖锛堝悕鍓嶃仺銈炽儭銉炽儓妯甫銇筹級	*/
+dl.Talk dt{ padding:0; top:0}
+dl.Talk dd{ margin-left:4.5em; position:relative; top:-1.5em; line-height:1.5;}
+.CheckBox{ background:url(/images/check_icon.png) no-repeat center left; min-height:24px; padding-left:28px; color:#666;}
+.UserVoice{ background:url(/images/ico_voice.png) no-repeat top left #E9F5FC; min-height:57px; padding:1em 0.8em 1em 80px; border-radius:8px; color: #069;}
+
+hr{ margin-bottom:1em; color:#CCC;}
+.NoLine{ border:none;}
+
+/* 涓ぎ鍚堛倧銇� */
+.Center{ text-align:center;}
+img.Center{ display:block; margin:auto;}
+
+
+/*銉嗐偔銈广儓*/
+h1{font-size:/*32px*/210%; font-weight:normal; padding:10px 0 20px; letter-spacing: 0.1em; }
+h1.News{ font-size:180%;letter-spacing: normal; font-weight:600; border-bottom:2px solid #F0F0F0; margin-bottom:15px;}/*銉椼儸銈广儶銉兗銈广偪銈ゃ儓銉�*/
+h1 span{ font-size:50%; padding-left:2px;}
+h1.News span{ font-size:60%;}
+
+h2{
+    line-height:1.5;
+    font-size:140%;
+    font-weight:normal;
+    margin:25px 0 15px 0;
+    padding:4px 10px 0 12px;
+    border-bottom:1px solid #CCC;
+    letter-spacing:0.1em;
+    border-left:#666 7px solid;
+    /*clear:both;*/
+}
+body.Case h2		{letter-spacing:normal;}
+body h2 span		{font-size:80%;}
+
+h2.NoLine,h3.NoLine{border:none;}
+h3 {
+    font-size:100%;
+    font-weight:bold;
+    padding:6px 0 4px;
+    margin-bottom:10px;
+    border-bottom:1px dotted #999;}
+
+h4{
+    font-weight:bold;
+    margin: 0 0 8px 0;
+    padding: 5px 0px 4px 0;
+}
+
+p		{line-height:1.5; margin-bottom:1.4em;}
+p img	{vertical-align: middle;}
+strong	{font-weight: bold;}
+.bold	{font-weight:bold;}
+.Small	{font-size:90%;}
+.tiny	{font-size:80%;}
+.little	{font-size:70%;}
+.Big	{font-size:110%;}
+.Big2	{font-size:160%;}
+.Indent01{ padding-left:1em;}
+.Indent02{ padding-left:2em;}
+
+
+/*銉兂銈€€---------------------*/
+a:link		{color:#003399; TEXT-DECORATION: none; }
+a:visited	{color:#003399; TEXT-DECORATION: none; }
+a:hover, a:focus	{color:#0000CC; color:#415d71; text-decoration:none; }
+a:active	{color:#990000; }
+
+a.Link01:link,
+a.Link01:visited {
+    background:url(/images/link01.gif) no-repeat;
+    background-position: 2px center;
+    margin:0;
+    padding:2px 0 0 10px;
+}
+a.Link02:link,
+a.Link02:visited {
+    background:url(/images/link02.gif) no-repeat;
+    background-position:0 4px;
+    margin:0;
+    padding:2px 0 0 14px;
+}
+/*鏋犱粯銇牬鍚�*/
+a.Link03:link,
+a.Link03:visited {
+    background:url(/images/link01.gif) no-repeat;
+    background-position:10px center;
+    border-bottom:1px dotted #BCBCBC;
+    margin:0 5px;
+    padding: 5px 10px 5px 20px;
+}
+/*銈儸銉炽偢銇煝鍗般偄銈ゃ偝銉充粯*/
+a.Link04:link,
+a.Link04:visited {
+    background:url(http://www.insuite.jp/images/top_img_link01.gif) no-repeat;
+    background-position: 0 6px;
+    margin:0;
+    padding:2px 0 0 16px;
+}
+a.Link04:hover{ text-decoration:none; color:#333 !important; border-bottom:1px dotted #0099CC; }
+
+/*澶栭儴銈点偆銉堛伕銇儶銉炽偗*/
+a.LinkOutside:link,
+a.LinkOutside:visited{
+    background:url(/images/icon_pop.gif) no-repeat;
+    background-position: 0px 1px;
+    margin:0;
+    padding:2px 0 0 10px;
+}
+
+a.LinkFile:link,
+a.LinkFile:visited{
+    background:url(/images/icon_pop.gif) no-repeat;
+    background-position:0 1px;
+    margin:0;
+    padding:2px 0 0 10px;
+}
+
+a img{ border:none;}
+
+
+
+/* BackImgSet */
+body.Home{background: url("../images/wrapper_bg_top.jpg") center top no-repeat;}	/* DA銉堛儍銉� */
+body.Solution{background: url("..//images/wrapper_bg_solution.jpg?20120824") center top no-repeat;}	/* 銈姐儶銉ャ兗銈枫儳銉炽儓銉冦儣 */
+body.SolutionOther,body.Sales{background: url("../images/wrapper_bg_solution_normal.jpg?20120824") center top no-repeat;}	/* 銈姐儶銉ャ兗銈枫儳銉炽仹鐗瑰畾銇敾鍍忋亴銇亜鍫村悎 */
+body.Case{background: url("../images/wrapper_bg_case.jpg?20120824") center top no-repeat;}
+body.Seminar{background: url("/images/wrapper_bg_seminar.jpg?20120824") center top no-repeat;}
+body.News{background: url("/images/wrapper_bg_news.jpg?20120824") center top no-repeat;}
+body.Company{background: url("../images/wrapper_bg_company.jpg?20120824") center top no-repeat;}
+/*鍊嬪垾*/
+body.Ise{background: url("/images/wrapper_bg_ise.jpg?20120824") center top no-repeat;}
+body.Sdb{background: url("/images/wrapper_bg_sdb.jpg?20120824") center top no-repeat;}
+body.Sdbon{background: url("/images/wrapper_bg_sdbon.jpg?20120824") center top no-repeat;}
+body.Shoprun{background: url("/images/wrapper_bg_shoprun.jpg?20120824") center top no-repeat;}
+body.Workflow{background: url("/images/wrapper_bg_workflow.jpg?20120824") center top no-repeat;}
+body.NearShore{background: url("/images/wrapper_bg_nearshore.jpg?20120824") center top no-repeat;}
+body.Hitode{background: url("/images/wrapper_bg_hitode.jpg?20120824") center top no-repeat;}
+body.Vpn{background: url("/images/wrapper_bg_vpn.jpg?20120824") center top no-repeat;}
+body.Dao{background: url("/images/wrapper_bg_okinawa.jpg?20120824") center top no-repeat;}
+body.Idc{background: url("/images/wrapper_bg_idc.jpg?20120824") center top no-repeat;}
+/* 1024 浠ヤ笅銇儗鏅綅缃慨姝�*/
+@media screen and (max-width : 1024px){
+    body.Home,body.Solution,body.SolutionOther,body.Case,body.Seminar,body.News,body.Company,body.Ise,body.Sdb,body.Sdbon,body.Shoprun,body.Workflow,body.NearShore,body.Hitode,body.Vpn,body.Dao,body.Idc{background-position:left top;}
+}
+
+/*銉偆銈偊銉�  -------------------------------------*/
+
+/* 鍙炽儕銉撱亗銈娿伄鍫村悎 */
+body.Pattern01 #SubNavi{
+    position:absolute;
+    top:200px; right:0;
+    width:210px;
+}
+body.Pattern01 #MainContents{
+    margin:0 240px 0 10px;
+    padding:200px 0 0 0;
+}
+
+/* 鍙炽儕銉撱亗銈娿伄鍫村悎銇у乏鍋寸┖銇戙倠鍫村悎 */
+body.Pattern02 #SubNavi{
+    position:absolute;
+    top:200px; right:0;
+    width:210px;
+}
+body.Pattern02 #MainContents{
+    margin:0 260px 0 110px;
+    padding:200px 0 0 0;
+}
+
+/* 鍙炽儕銉撱仾銇椼伄鍫村悎 */
+body.Pattern03 #SubNavi{
+    display:none;
+}
+body.Pattern03 #MainContents{
+    margin:0 20px 0 20px;
+    padding:200px 0 0 0;
+}
+
+/* 鍙炽儕銉撱仾銇椼伄鍫村悎銇у乏鍙炽伀銈广儦銉笺偣銈掔┖銇戙倠 */
+body.Pattern04 #SubNavi{
+    display:none;
+}
+body.Pattern04 #MainContents{
+    margin:0 110px 0 110px;
+    padding:200px 0 0 0;
+}
+
+/* 妯箙銉曘儷琛ㄧず銇у彸銉娿儞銇傘倞銇牬鍚� */
+body.Pattern05 #SubNavi{
+    position:absolute;
+    top:200px; right:0;
+    width:210px;
+}
+body.Pattern05 #MainContents{
+    margin:0 20px 0 20px;
+    padding:200px 0 0 0;
+}
+
+
+/* 楂樸仌銇屻仾銇勩儦銉笺偢銇仧銈佸蹇� */
+
+/* 灏庡叆瀹熺妇 */
+body.Sdb #MainContents,
+body.Ise #MainContents,
+body.Case #MainContents{
+    min-height: 520px;
+    _height: auto !important;
+    _height: 680px;
+}
+
+
+#Container{
+    width:980px;
+    position:relative;
+    margin:0 auto;
+    padding:0;
+    text-align:left;
+}
+
+
+
+/* 銉°偆銉炽儦銉笺偢銉曘儍銈裤兗 ----------------銆€*/
+#MainContents .InquiryLink{
+    padding:10px 15px;
+    border: 1px solid #999999;
+    text-align:right;
+    margin-bottom:10px;
+    margin-top:30px;
+    margin-left:auto;
+    margin-right:auto;
+}
+#MainContents .InquiryLink .TelNum{
+    display:inline-block;
+    *display:inline;*zoom:1;/* for IE */
+    font-size: 12px;
+    text-align: center;
+    float:left;
+    margin:0 20px;
+    line-height:24px;
+    white-space:nowrap;
+    color:#666;
+}
+#MainContents .InquiryLink .TelNum a{}
+#MainContents .InquiryLink .TelNum span{
+    font-size: 26px;
+    display:block;
+    white-space:nowrap;
+}
+
+#MainContents .InquiryLink a.Inquiry:link,
+#MainContents .InquiryLink a.Inquiry:visited,
+#MainContents .InquiryLink a.Inquiry:hover,
+#MainContents .InquiryLink a.Inquiry:active{
+
+    display:inline-block;
+    *display:inline;*zoom:1;/* for IE */
+    white-space:nowrap;
+
+    background-color:#085e89;
+    /*font-size:22px;*/
+    font-size:160%;
+    color:#FFF;
+    text-decoration:none;
+
+    padding:15px 16px 14px 16px;
+    margin:0 20px;
+    line-height:100%;
+    border-radius:3px;
+}
+
+#MainContents .InquiryLink a.Inquiry:hover,
+#MainContents .InquiryLink a.Inquiry:active{
+    background-color:#6292c1;
+}
+
+
+#MainContents .BackToTop {
+    float: right;
+    display: inline;
+    padding: 15px 0;
+    background: url("/images/backtotop_icon.png") top center no-repeat;
+    font-size: 80%;
+}
+
+
+
+
+/*閫忛亷png銈扞E6銇蹇溿仌銇涖倠*/
+* html {
+    behavior: url("/common/js/iepngfix.htc");
+}
+
+
+
+/*----------------------------------------------------------------
+    姹庣敤鍒╃敤
+-----------------------------------------------------------------*/
+
+/* 鑳屾櫙--------------------------------*/
+
+/* 鍗婇€忔槑*/
+.opa{
+    background:#FFF;
+    opacity:0.85;
+    filter: alpha(opacity=85);        /* ie lt 8 */
+    -ms-filter: "alpha(opacity=85)";  /* ie 8 */
+    -moz-opacity:0.85;                 /* FF lt 1.5, Netscape */
+    -khtml-opacity: 0.85;              /* Safari 1.x */
+}
+/* 榛掕儗鏅� 鐧芥枃瀛� */
+.Bg01 {
+    background:url(/images/title_bg_black.png) repeat-x bottom;
+    padding: auto;
+    color:#FFF !important;
+    border:none;
+}
+.Bg02 {
+    background:url(/images/title_bg_white.png) repeat-x bottom;
+    padding:0.5em 1em 0.3em;
+    color: #363636;
+    border:none;
+}
+
+
+/* 銉兂銈�------------------------------*/
+
+/*銆€hover銇у崐閫忔槑銇仚銈�*/
+a.opa1:hover{
+    background:#FF9;
+    opacity:0.8;
+    filter: alpha(opacity=80);        /* ie lt 8 */
+    -ms-filter: "alpha(opacity=80)";  /* ie 8 */
+    -moz-opacity:0.8;                 /* FF lt 1.5, Netscape */
+    -khtml-opacity: 0.8;              /* Safari 1.x */
+}
+a.opa2:hover{
+    background:#FFF;
+    opacity:0.8;
+    filter: alpha(opacity=80);        /* ie lt 8 */
+    -ms-filter: "alpha(opacity=80)";  /* ie 8 */
+    -moz-opacity:0.8;                 /* FF lt 1.5, Netscape */
+    -khtml-opacity: 0.8;              /* Safari 1.x */
+}
+a.opa3:hover{
+    background:#FFF;
+    opacity:0.3;
+    filter: alpha(opacity=30);        /* ie lt 8 */
+    -ms-filter: "alpha(opacity=30)";  /* ie 8 */
+    -moz-opacity:0.3;                 /* FF lt 1.5, Netscape */
+    -khtml-opacity: 0.3;              /* Safari 1.x */
+}
+
+
+
+
+/* 銉溿偪銉� ----------------------------*/
+
+/* 瑙掍父銉溿偪銉冲叡閫氭寚瀹� */
+a.Btn01,a.Btn02,a.Btn03,a.Btn07,a.Btn08,a.BtnBlueArrow,a.BtnRedArrow
+{cursor: pointer; -webkit-border-radius:6px;-moz-border-radius:6px;-khtml-border-radius:6px;border-radius:6px;
+    display:inline-block;	text-decoration: none;padding: 0.8em 1em 0.6em 1em; margin-bottom:0.5em;}
+a.Btn01:hover,a.Btn02:hover,a.Btn03:hover{text-decoration:none;}
+
+/* Footer銇晱鍚堛仜 锛堛儥銉笺偡銉冦偗锛�*/
+a.Btn01 {background: #454545; border:#CCC 1px solid; color:#FFF !important;line-height:1.5;}
+a.Btn01:hover {background: #999;}
+
+/* 銈汇儫銉娿兗銉汇偔銉ｃ兂銉氥兗銉�(闈掔郴) */
+a.Btn02 { background: #09C; color:#FFF !important;line-height:1.5; text-shadow:1px 1px 4px #333;}
+a.Btn02:hover {	background: url(/images/btn_02_on.png) bottom repeat-x;}
+
+a.BtnBlueArrow{ background:url(/images/btn_bg_bluearrow_off.png) center right;color:#FFF !important;line-height:1.5; text-shadow:1px 1px 4px #333;}
+a.BtnBlueArrow:hover {background:#09C; text-decoration:none;}
+
+/* 銈汇儫銉娿兗銉汇偔銉ｃ兂銉氥兗銉�(璧ょ郴) */
+a.Btn03 { background:  url(/images/btn_bg_red_off.png) bottom repeat-x; color:#FFF !important;line-height:1.5; text-shadow:1px 1px 4px #333;}
+a.Btn03:hover {	background: url(/images/btn_02_on.png) bottom repeat-x; text-decoration:none;}
+
+a.BtnRedArrow{ background:url(/images/btn_bg_redarrow_off.png) center right;color:#FFF !important;line-height:1.5; text-shadow:1px 1px 4px #333;}
+a.BtnRedArrow:hover {background: #F66; text-decoration:none;}
+
+/* 娣°偘銉兗銆€闁㈤€ｃ儦銉笺偢銇亰鐭ャ倝銇� */
+a.Btn04 {background: #F3F3F3;border:1px solid #CCC;  display: inline-block; padding: 1em;}
+a.Btn04:hover { background:#FFF; text-decoration:none; color: #333;}
+
+/* 鑳屾櫙鐧姐兓浜嬩緥涓€瑕с伄闁㈤€ｃ儐銉笺優銉兂銈� */
+a.Btn05 { background:#FFF;display: inline-block; padding:0.5em 0.7em 0.4em;border-bottom:1px dotted #CCC;color:#666 !important; }
+a.Btn05:hover { background: #F3F3F3; text-decoration:none; color: #333;}
+
+/*鍙崇煝鍗板瀷 鏇哥睄鍏ㄦ枃琛ㄧず*/
+a.Btn06{background:url(/images/btn_bg06_off.png) center right no-repeat;display:inline-block; padding:0.2em 1.5em 0.2em 0.8em;color: #FFFFFF !important;}
+a.Btn06:hover{ background:url(/images/btn_bg06_on.png) center right no-repeat;text-decoration:none; }
+
+/* 銉堛儵銈ゃ偄銉敵杈笺伩锛堝悓鎰忥級 */
+a.Btn07 { background: #06C; color:#FFF !important;line-height:1.5;text-shadow:1px 1px 3px rgba(0,0,0,0.2);line-height:1.5;}
+a.Btn07:hover {	background: url(/images/btn_02_on.png) bottom repeat-x; text-decoration:none;}
+
+/* 鑳屾櫙鐧姐€併偨銉儱銉笺偡銉с兂銉堛儍銉椼伄銈点兗銉撱偣  */
+a.Btn08 {background:#FFF;border-left:solid 1px #CCC;border-top:solid 1px #CCC;
+    color:#666 !important;text-shadow:1px 1px 3px rgba(0,0,0,0.2);line-height:1.5;	}
+a.Btn08:hover {background:#FFFEE8;}
+
+/* 鍚勩偒銉嗐偞銉伄銉堛儍銉楋紙浼氱ぞ鎯呭牨銉堛儍銉椼伄銉偣銉堛伀浣跨敤锛� */
+body.Pattern01 ul.Archive{ width:730px;}
+body.Pattern02 ul.Archive{ width:600px;}
+ul.Archive li {float:left;} /*銈兗銈偆銉栥伄瑗挎殾銉偣銉堬紙銉嬨儱銉笺偣锛塱e銇с伅float鎸囧畾銈抋 銇叆銈屻倠銇ㄩ殠娈电姸銇仛銈屻倠*/
+ul.Archive li a{ display: inline-block; padding:0.5em 2em ; margin:0 0.5em 2em; border-bottom:1px #CCC dotted;border-right:1px #CCC dotted; font-size:120%;} /*銈兗銈偆銉栥伄瑗挎殾銉偣銉堬紙銉嬨儱銉笺偣锛�*/
+ul.Archive li a:hover{ border-bottom:1px #CCC solid; text-decoration:none; background:#F6F6F6;} /*銈兗銈偆銉栥伄瑗挎殾銉偣銉堬紙銉嬨儱銉笺偣锛�*/
+
+
+
+#MainContents ul.PageTopTitle {	margin:0;}
+body.Pattern01 #MainContents ul.PageTopTitle{width:730px;}
+body.Pattern02 #MainContents ul.PageTopTitle{width:600px;}
+
+#MainContents ul.PageTopTitle li {
+    border-top:3px solid #ACBAC5;
+    display:inline;
+    float:left;
+    font-size:76%;
+    height:15.5em;
+    line-height:145%;
+    margin:15px 5px 0;
+    padding:0;
+    width:130px;
+}
+
+#MainContents ul.PageTopTitle a {
+    margin:0 10px 0 0;
+}
+#MainContents ul.PageTopTitle a span {
+    font-size:14px;
+    margin:10px 0;
+    display:block;}
+#MainContents ul.PageTopTitle img {
+    margin-bottom:1px;
+}
+
+
+/*銈般儸銉兼灎*/
+.Box{border:1px solid #CCC;	padding:10px; margin-right:10px; margin-bottom:10px;}
+/*涓嬭竞銇偣绶氥倰鍏ャ倢銈嬨€€锛堛偦銉熴儕銉笺偄銉笺偒銈ゃ儢銇т娇鐢級*/
+.Line01{ background:url(/images/line01.gif) repeat-x bottom; margin-bottom:5px; padding-bottom:15px;}
+
+/*璧ゆ枃瀛楋紙attention)*/
+.attent	{font-size:10px;color:#E41F1F;margin:0px;padding:0px;}
+.attent2{color:#E41F1F; }
+.attent3{color:#006600; }
+
+/*	Table	*/
+table	{border-collapse: collapse;  border-spacing: 0;}
+table th,table td{margin:0;padding:0;}
+
+/*銈汇儫銉娿兗銆佷細绀炬瑕併仾銇╂睅鐢ㄧ殑銇儐銉笺儢銉伄銉欍兗銈�*/
+table.TableBasis{}
+body.Pattern02 table.TableBasis{
+    max-width:730px;}
+table.TableBasis td ,
+table.TableBasis th{
+    border-top:#ccc solid 1px;
+    border-bottom:#ccc solid 1px;
+    padding:10px;
+    line-height:1.5;
+    vertical-align:text-top;
+    text-align:left;}
+
+table.TableBasis th{background:#F0F0F0;}
+table.TableBasis td{background:url(../images/table_pic02.gif) repeat-y;}
+
+table.TableBasis td.NoLine{background:none;}
+
+table.TableBasis th.Center{
+    border-top:1px solid #FFF;
+    text-align:center;
+    vertical-align:middle;}
+
+.TableSummary{
+    text-align:center;
+    font-size:85%;
+    color:#666;
+}
+
+
+
+/* 2鍒嗗壊锛堜富銇鑳斤級	*/
+#MainContents div.HalfContents{
+    margin:10px 0 0 0;
+    padding:0;
+    clear:both;
+    width:auto;
+}
+body.Pattern01 #MainContents div.HalfContents{ _width:730px;} /*for IE6*/
+
+#MainContents div.HalfContents div.Left,
+#MainContents div.leftContents{
+    width:47%;
+    margin:0;
+    padding:0;
+    float: left;
+}
+#MainContents div.HalfContents div.Right,
+#MainContents div.rightContents{
+    width:47%;
+    margin:0 5px 0 0;
+    padding:0;
+    float:right;
+}
+#MainContents div.leftContents p,
+#MainContents div.rightContents p{
+    margin: 0;
+    padding:0;
+}
+
+
+/*2銈儵銉� 妯甫銇炽儶銈广儓銇嚜鍕曟敼琛� */
+#MainContents ul.TwoColumn{}
+#MainContents ul.TwoColumn li{
+    width:48%;
+    display:inline-block;
+    *display:inline;*zoom:1;/* for IE */
+    vertical-align:top;
+    margin:0 0 0 1%; padding:0;
+}
+
+
+/* 3鍒嗗壊 銉炪兗銈搞兂0銆€銉┿偆銉冲尯鍒囥倞*/
+#MainContents div.ThreeContents{ text-align:center; margin:0; padding:0; position:relative;}
+#MainContents div.ThreeContents div.Left,
+#MainContents div.ThreeContents div.Center,
+#MainContents div.ThreeContents div.Right{ width:32%;display:inline-block;  *display:inline;*zoom:1;/* for IE */ padding:0; margin:0;}
+#MainContents div.ThreeContents div.Right,
+#MainContents div.ThreeContents div.Center{ border-left:1px solid #CCC;}
+#MainContents div.ThreeContents p{text-align:left; padding-left:1em;}
+
+
+/* 3銈儵銉犮€€妤ó銉偣銉堛兓銈姐儶銉ャ兗銈枫儳銉炽儶銈广儓*/
+dl.ThemaList3 {border-left:1px solid #F0F0F0;float:left; margin-right:1%; width:31.5%;}
+dl.ThemaList3 dt {line-height:1.4; margin-bottom:0.4em; padding:4px 0 4px 8px; background-color:#F0F0F0;}
+dl.ThemaList3 dd {margin-left:1em;font-size:80%;}
+dl.ThemaList3 dt a{ display:block; font-size:110%; font-weight:normal; color:#333;}
+dl.ThemaList3 a:hover{ text-decoration:none; color:#069;}
+
+
+/*3銈儵銉� 妯甫銇炽儶銈广儓銇嚜鍕曟敼琛� */
+#MainContents ul.ThreeColumn{}
+#MainContents ul.ThreeColumn li{
+    width:31.4%;
+    display:inline-block;
+    *display:inline;*zoom:1;/* for IE */
+    vertical-align:top;
+    margin:0 0 0 1%; padding:0;
+}
+
+/*4銈儵銉� 妯甫銇炽儶銈广儓銇嚜鍕曟敼琛� */
+#MainContents ul.FourColumn{}
+#MainContents ul.FourColumn li{
+    width:23.6%;
+    display:inline-block;
+    *display:inline;*zoom:1;/* for IE */
+    vertical-align:top;
+    margin:0 0 0 0.7%; padding:0;
+}
+
+/*	瑙掍父 gray CSS3 */
+#MainContents div.Round{
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    border:solid 1px #CCC;
+    background: #eeeeee repeat-x bottom;
+    behavior: url(/js/PIE.htc);
+    margin:0;
+    padding:10px; /* for IE6 --width銇寚瀹氥亴鐒°亜銇ㄣ€乫loat銇椼仧img銇岃〃绀恒仌銈屻仾銇� */
+}
+#MainContents div.Round img{margin-bottom:8px}
+
+/*case study瑭崇窗銇儣銉儠銈ｃ兗銉�*/
+#MainContents div.leftPoint {
+    border-right:1px dashed #666666;
+    float:left;
+    margin:6px 0 0;
+    padding:0;
+    padding-right:10px;
+    width:290px;
+}
+#MainContents div.rightCompany {
+    margin:6px 0 0 305px;
+    padding:0;
+    width:auto;
+}
+
+/*銈姐儶銉ャ兗銈枫儳銉宠┏绱般儦銉笺偢涓婇儴銇鏄庢瑒*/
+#MainContents div.leftPoint2 {
+    border-right:1px dashed #666666;
+    margin:0 220px 0 0;
+    padding:0 10px 0 0;
+    width:auto;
+}
+#MainContents div.leftPoint2 p{
+    padding-bottom:2px}
+#MainContents div.rightPoint2 {
+    float:right;
+    width:210px;
+}
+
+/*銉嬨儱銉笺偣銉偣銉�(銉°儑銈ｃ偄銈儛銉儍銈�)*/
+#MainContents dl.News{
+    margin:0;
+    padding:0;
+}
+#MainContents dl.News dt{
+    width:5.5em;
+    float:left;
+    font-size:90%;
+    line-height:1.4;
+    padding-bottom:1em;}
+#MainContents dl.News dd{
+    margin-left:6.5em;
+    font-size:90%;
+    line-height:1.4;
+    padding-bottom:1em;}
+
+
+/*浼氱ぞ姒傝(褰瑰摗涓€瑕�)*/
+#MainContents dl.OfficerList{
+    margin:0;
+    padding:0;
+}
+#MainContents dl.News dt{
+    width:7.5em;
+    float:left;
+    font-size:90%;
+    line-height:1.4;
+    padding-bottom:1em;}
+#MainContents dl.News dd{
+    margin-left:9em;
+    font-size:90%;
+    line-height:1.4;
+    padding-bottom:1em;}
+
+
+
+
+/*    DA杩借
+
+
+/*    position
+----------------------------------------------*/
+.Cl {clear: both;}
+.Right {float: right;}
+.Left {float: left;}
+.T_Right {text-align: right;}
+.T_Left {text-align: left;}
+.T_Center {text-align: center;}
+
+
+
+/*鐢诲儚銉汇儐銈偣銉堛伄鍙冲瘎銇涖€佸乏瀵勩仜銆€---------------------------*/
+#MainContents div.Pic{
+    /*	text-align:center !important;*/
+    margin:0 auto;
+    width:100%;
+    /*margin:1px 4px 1px 6px ;*/
+    clear:both;
+}
+#MainContents div.Pic img{
+    border: #999999 solid 1px;
+    display:block;
+    /*margin:0px 0px 2px 0px ;*/
+    margin:0;
+}
+#MainContents div.Pic span{
+    font-size:75%;
+    /*		font-size:10px;*/
+    line-height:1.2em;
+    color:#666666;
+    display:block;
+}
+#MainContents div.PicRight{
+    text-align:center;
+    float:right;
+    margin:1px 4px 1px 10px ;
+    clear:both;
+}
+#MainContents div.PicRight img{
+    border: #999999 solid 1px;
+    display:block;
+    margin:0px 0px 2px 0px ;
+}
+#MainContents div.PicRight span{
+    font-size:11px;
+    line-height:1.4;
+    color:#666666;
+    display:block;
+}
+#MainContents div.PicLeft{
+    text-align:center;
+    float:left;
+    margin:1px 12px 1px 4px ;
+    clear:both;
+}
+#MainContents div.PicLeft img{
+    border: #999999 solid 1px;
+    display:block;
+    margin:0px 0px 2px 0px ;
+}
+#MainContents div.PicLeft span{
+    font-size:11px;
+    line-height:1.4;
+    color:#666666;
+    display:block;
+}
+#MainContents div.TextRight{
+    float:right;
+    margin:1px 4px 1px 6px ;
+    clear:both;
+}
+
+
+/* None Frame Img*/
+#MainContents div.PicLeft img.noFrame{
+    border: #ffffff solid 0px;
+    display:block;
+    margin:0 0 2px 0;
+}
+#MainContents div.PicRight img.noFrame{
+    border: #ffffff solid 0px;
+    display:block;
+    margin:0px 0px 2px 0px ;
+}
+#MainContents div.Pic img.noFrame{
+    border: #ffffff solid 0px;
+    display:block;
+    margin:0px 0px 2px 0px ;
+}
+
+
+/* 瀹熺妇 */
+
+/*灏庡叆瀹熺妇 Top Logo銉偣銉�(Sdb銇伩灏庡叆:Sdb銈儵銈�,Ise銇伩灏庡叆:Ise銈儵銈�,绲炪倞杈笺伩闈炶〃绀�:Wait銈儵銈�)*/
+#MainContents ul.CaseTop{
+    margin:0;
+    padding:0;
+    display:block;
+}
+#MainContents ul.CaseTop li/*,
+	#MainContents ul.CaseTop li.Sdb,
+	#MainContents ul.CaseTop li.Ise,
+	#MainContents ul.CaseTop li.Wait*/{
+    position:relative;
+    background: url(http://www.dreamarts.co.jp/solution/images/lilogobg.jpg);
+    float:left;
+    width:170px;
+    height:86px;
+    margin:0 0 7px 4px;
+    display:inline;  /* for IE6  纰鸿獚涓�2011/9/27*/
+}
+#MainContents ul.CaseTop li img,
+#MainContents ul.CaseTop li.Sdb img,
+#MainContents ul.CaseTop li.Ise img,
+#MainContents ul.CaseTop li.Wait img
+{margin:12px 4px}
+#MainContents ul.CaseTop li img.Btn,
+#MainContents ul.CaseTop li.Sdb img.Btn,
+#MainContents ul.CaseTop li.Ise img.Btn,
+#MainContents ul.CaseTop li.Wait img.Btn
+{
+    margin:0;
+    padding:0;
+    position:absolute;
+    right:0;
+    bottom:0;
+    background-color:#F00;}
+
+/* 浜嬩緥琛ㄧず */
+#MainContents ul.CaseTop li{display:none;} /* 涓€搴︺仚銇广仸闈炶〃绀� */
+body.Ise #MainContents ul.CaseTop li.Ise{ display:inline;}/* INSUITE浜嬩緥 */
+body.Sdb #MainContents ul.CaseTop li.Sdb{ display:inline;}/* Sm@rtDB浜嬩緥 */
+body.Case #MainContents ul.CaseTop li{ display:inline;}/* Case灏庡叆瀹熺妇銉堛儍銉� */
+body.Wait #MainContents ul.CaseTop li.Wait{ display:none;}
+
+/*灏庡叆瀹熺妇 妤ó鍒ャ儶銈广儓*/
+#MainContents dl.Case{	margin:0;	padding:0;	}
+#MainContents dl.Case dt{
+    font-size:100%;
+    font-weight:bold;
+    padding:10px 0;
+    border-top:1px dotted #CCC;
+}
+#MainContents dl.Case dd{
+    background-repeat:no-repeat;
+    margin-left:10px;
+    padding:0 0 1em 74px;
+    font-size:90%;
+}
+#MainContents dl.Case dd.Press	{	background-image:url(/images/ico_con_press.gif);	}
+#MainContents dl.Case dd.Case	{	background-image:url(/images/ico_con_case.gif);		}
+#MainContents dl.Case dd.Seminar{	background-image:url(/images/ico_con_seminar.gif);	}
+#MainContents dl.Case dd.Media	{	background-image:url(/images/ico_con_media.gif);	}
+
+
+/*灏庡叆瀹熺妇solution list*/
+#MainContents ul.SolCase{
+    float:left;
+    margin:0;
+    padding:0;
+    margin-bottom:1em;
+    width:33%;
+}
+#MainContents ul.SolCase li{
+    font-size:80%;
+    color:#666;
+    padding:0 0 1px 5px;
+    margin-right:2%;
+    line-height:1.6}
+#MainContents ul.SolCase li a{
+    display:block;}
+#MainContents ul.SolCase li.SolTitle{
+    font-size:90%;
+    font-size:100%;
+    background:url(../images/footer_bg.jpg);
+    padding:5px 5px 3px 6px;
+    margin-bottom:5px;
+    border-bottom:1px solid #CCC;}
+#MainContents ul.SolCase li.SolTitle a{
+    font-weight:600;
+    color:#333;}
+#MainContents ul.SolCase li.SolTitle a:hover{
+    color:#933;
+    text-decoration:none;}
+
+
+/*灏庡叆瀹熺妇璩囨枡绋鍒嗐亼 */
+#MainContents a.BtnCase,
+#MainContents a.BtnPress,
+#MainContents a.BtnCamp{
+    font-size:80%;
+    padding:0 3px;
+    margin-left:6px;
+    border:solid 1px #CCC;}
+#MainContents a.BtnCase{background-color: #FC9; color:#333;}
+#MainContents a.BtnPress{background-color:#CFF; color:#333;}
+#MainContents a.BtnCamp{background-color:#FCF;	color:#333;}
+
+
+
+/* 灏庡叆銈广儐銉冦儣	*/
+#MainContents div.solutionStep {
+    margin:0px;
+    padding:0px;
+    clear:both
+}
+#MainContents div.solutionStep div.leftye {
+    width:220px;
+    margin:0px 0px 0px 0px;
+    padding:0px 6px 0px 0px;
+    float: left;
+}
+#MainContents div.solutionStep div.listcont {
+    width:220px;
+    margin:0px 0px 0px 20px;
+    padding:0px 6px 0px 0px;
+    float: left;
+}
+
+/*  銈裤儢銉°儖銉ャ兗锛圢otes銈姐儶銉ャ兗銈枫儳銉炽儦銉笺偢锛� */
+#tabmenu2 {
+    float:left;
+    _float:none;/* for IE6 */
+    width:97%;
+    line-height:normal;
+    border-bottom:1px solid #999999;
+    /*background-color:  #EAEAEA;*/
+    padding-left:5px;
+    margin:0;
+    margin-top:0;
+    margin-bottom:10px;
+
+    font-size:12px;
+
+}
+#tabmenu2 ul {
+    margin:0;
+    padding:6px 10px 0 0px;
+    list-style:none;
+}
+#tabmenu2 li {
+    display:inline;
+    margin:0;
+    padding:0;
+}
+#tabmenu2 a {
+    float:left;
+    background:url("http://www.dreamarts.co.jp/solution/images/tableft2.gif") no-repeat left top;
+    margin:0;
+    padding:0 0 0 4px;
+    text-decoration:none;
+    cursor:pointer;
+}
+#tabmenu2 a span {
+    float:left;
+    display:block;
+    background:url("http://www.dreamarts.co.jp/solution/images/tabright2.gif") no-repeat right top;
+    padding:5px 10px 4px 4px;
+    color: #4D4D4D;
+}
+#tabmenu2 a:hover	   {background-position:0% -43px;}
+#tabmenu2 a:hover span {background-position:100% -43px;}
+
+#tabmenu2 .active a {background-position:0% -44px;}
+#tabmenu2 .active a span {
+    color:#000000;
+    /*	font-weight:bold;*/
+    background-position:100% -44px;	}
+#tabmenu2 .active a:link, #tabmenu2 .active a:visited {
+    position:relative;
+    top:1px;
+    /*	border-bottom:1px solid #ffffff;*/
+}
+/**IE 6锟饺慜 ??? **/
+* html #tabmenu2 li.active a:hover {
+    background-position:0% -44px;
+}
+* html #tabmenu2 li.active a:hover span {
+    background-position:100% -44px;
+}
+
+
+
+/* bcm */
+#MainContents ul.Navbar {
+    position: relative;
+}
+#MainContents ul.Navbar li.no {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    float: left;
+    padding: 0;
+    position: relative;
+}
+#MainContents ul.Navbar li {
+    background: url("/images/btn_bg.gif") repeat-x scroll center bottom transparent;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #FFFFFF;
+    float: left;
+    padding: 0;
+    position: relative;
+}
+#MainContents ul.Navbar li.On {
+    background: url("/images/con_titlebg.gif") repeat-x scroll center top transparent;
+    color: #666666;
+    padding: 0.5em 1em;
+}
+#MainContents ul.Navbar li a {
+    display: block;
+    padding: 0.5em 1em;
+}
+#MainContents ul.Navbar li a:hover {
+    background: url("/images/con_titlebg.gif") repeat-x scroll center top transparent;
+    left: 1px;
+    position: relative;
+    text-decoration: none;
+}
+#MainContents ul.Navbar li img {
+    padding-right: 5px;
+}
+
+#MainContents .Box {
+    /*	background:#FFF !important;*/
+    background:#FFF;
+}
+#MainContents .Num01 {
+    color: #F95100;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+/* 闁㈤€ｃ偝銉炽儐銉炽儎,瑜囨暟銉氥兗銈� */
+
+#MainContents div.Related{
+    clear:both;
+    margin:20px 0px 0px 0px;
+    padding: 10px;
+    background: #f2f2f2;
+}
+
+#MainContents div.Related ul li{}
+#MainContents div.Related ul li a{
+    background: url(../images/link01.gif) 5px center no-repeat;
+    text-indent:16px;
+    display:block;
+}
+#MainContents div.Related ul li.On{
+    font-weight:bold;
+    color:#666;
+}
+#MainContents div.Related ul li.On a,
+#MainContents div.Related ul li.On a:visited,
+#MainContents div.Related ul li.On a:hover,
+#MainContents div.Related ul li.On a:focus,
+#MainContents div.Related ul li.On a:active{
+    font-weight:bold;
+    color:#666;
+    text-decoration:none;
+    /*	text-indent:6px;*/
+    background:none;
+    background: url(../images/link01_g.png) 4px center no-repeat;
+}
+
+
+/* 娉ㄩ噲 */
+
+#MainContents .Comment{
+    font-size:75%;
+    line-height:1.2em;
+    color:#666666;
+}
+
+/* hr	*/
+hr {
+    border-bottom:none;
+    border-left:none;
+    border-right:none;
+    border-top:#999999 solid 1px;
+    margin:5px 0;
+    padding:0;
+    width:100%;
+    height:1px;
+    color:#FFFFFF;
+    clear:both;
+}
+hr.Line01{border:#999 dashed 1px;}
+hr.Line02{border:#999 dotted 2px;}
+
+/* p銇優銉笺偢銉炽倰銇亸銇欐檪銇仼	*/
+.mb0 {margin-bottom:0 !important;}
