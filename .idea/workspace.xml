@@ -98,7 +98,16 @@
       <file leaf-file-name="base.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="181" column="18" selection-start="5733" selection-end="5733" vertical-scroll-proportion="0.032894738">
+            <state line="182" column="32" selection-start="5836" selection-end="5836" vertical-scroll-proportion="0.3321033">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zhaopin.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhaopin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="89" column="109" selection-start="3260" selection-end="3260" vertical-scroll-proportion="-4.375">
               <folding />
             </state>
           </provider>
@@ -432,9 +441,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/zhaopin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="109" selection-start="3260" selection-end="3260" vertical-scroll-proportion="-4.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="181" column="18" selection-start="5733" selection-end="5733" vertical-scroll-proportion="0.032894738">
+        <state line="182" column="32" selection-start="5836" selection-end="5836" vertical-scroll-proportion="0.3321033">
           <folding />
         </state>
       </provider>
