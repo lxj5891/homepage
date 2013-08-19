@@ -39,7 +39,7 @@
     <title>企业文化 - DreamArts Corporation.</title>
 </head>
 <body class="Company Pattern01 NaviCnCorporateOverview">
-<div id="Container">
+<div id="Container" class="Container">
     <div id="MainContents">
         <div class="MainTitle">
             <h1>企业文化</h1>
@@ -130,8 +130,11 @@
     </div>
     <div id="SubNavi" class="pinned">
         <ul class="First">
-            <li id="NaviTitle"><a href="#DAValue">我们的价值观</a></li>
-            <li class="NaviCnCorporateOverview">
+            <li id="NaviTitle">印象DAC</li>
+            <li class="NaviCnMessage">
+                <div><a href="#DAValue">我们的价值观</a></div>
+            </li>
+            <li class="NaviCnMessage">
                 <div><a href="#hireStandard">我们的人才观</a></div>
             </li>
             <li class="NaviCnMessage">
@@ -163,7 +166,7 @@
 
         <!-- /#Footer --></div>
 
-    <script> $(".pinned").pin()</script>
+    <script> $(".pinned").pin({containerSelector: ".Container", minWidth: 940})</script>
     <script type="text/javascript">
         var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
         document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));

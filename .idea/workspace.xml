@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" name="Default" comment="添加了海博">
-      <change type="DELETED" beforePath="D:\git\homepage\index.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/compCulture/entertain1.jpg" afterPath="$PROJECT_DIR$/images/compCulture/entertain1.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/companyCulture.html" afterPath="$PROJECT_DIR$/companyCulture.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="homepage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -19,7 +15,7 @@
     <file path="/agent.js" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1376203239168" ignored="false" />
     <file path="$PROJECT_DIR$/../Dev/root/qcheng/views/agent/channels/channel_list.html" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1376203401999" ignored="false" />
     <file path="/channel_list.html" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1376203401999" ignored="false" />
-    <file path="/Dummy.txt" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1376904604728" ignored="false" />
+    <file path="/Dummy.txt" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1376908735220" ignored="false" />
     <file path="$PROJECT_DIR$/../Dev/root/qcheng/public/javascripts/dac/dac.pagination.js" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1376204819621" ignored="false" />
     <file path="$PROJECT_DIR$/../Dev/root/qcheng/public/javascripts/dac/js.ts" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1376204944898" ignored="false" />
     <file path="$PROJECT_DIR$/../Dev/root/qcheng/public/mvc/news/news.app.js" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1376205797804" ignored="false" />
@@ -67,7 +63,7 @@
     <file path="$PROJECT_DIR$/../DAC/github/AppstoreWeb/modules/mod_app.js" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1376378685383" ignored="false" />
     <file path="/mod_app.js" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1376378661575" ignored="false" />
     <file path="$PROJECT_DIR$/../Dev/root/qcheng/README.md" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1376393596371" ignored="false" />
-    <file path="/companyCulture.html" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1376904520088" ignored="false" />
+    <file path="/companyCulture.html" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1376911284085" ignored="false" />
     <file path="/companyCulture -v-iframe.html" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1376896891367" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,10 +87,11 @@
       <file leaf-file-name="companyCulture.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/companyCulture.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="10" selection-start="6723" selection-end="6723" vertical-scroll-proportion="0.6828753">
+            <state line="123" column="10" selection-start="6741" selection-end="6741" vertical-scroll-proportion="0.063307494">
               <folding>
                 <element signature="e#811#915#0" expanded="false" />
                 <element signature="tag#script#14;tag#head#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#script#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#script#3;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#script#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
@@ -108,7 +105,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../jquery.pin/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="145" column="23" selection-start="8699" selection-end="8717" vertical-scroll-proportion="0.754717">
+            <state line="145" column="71" selection-start="8717" selection-end="8765" vertical-scroll-proportion="-9.321428">
               <folding />
             </state>
           </provider>
@@ -184,6 +181,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -204,7 +202,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -214,8 +211,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -284,12 +281,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="7" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16547619" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297491" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32857144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.039644014" sideWeight="0.67142856" order="0" side_tool="false" content_ui="combo" />
@@ -301,6 +297,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32857144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -369,6 +366,29 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/companyCulture.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#811#915#0" expanded="false" />
+            <element signature="tag#script#14;tag#head#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#script#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#script#3;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#script#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#img#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#script#7;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jquery.pin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="145" column="23" selection-start="8699" selection-end="8717" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/sidenavi.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1025" column="0" selection-start="49791" selection-end="49791" vertical-scroll-proportion="0.0">
@@ -402,23 +422,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/thickbox.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/evolusion.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/toppage.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="16" selection-start="1486" selection-end="1486" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="57" column="16" selection-start="1486" selection-end="1486" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/sidenavi.css">
@@ -444,31 +458,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/companyProfile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="8" selection-start="4950" selection-end="5028" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chinese.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="172" column="60" selection-start="8429" selection-end="8429" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="119" column="8" selection-start="4950" selection-end="5028" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../jquery.pin/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="145" column="23" selection-start="8699" selection-end="8717" vertical-scroll-proportion="0.754717">
+        <state line="145" column="71" selection-start="8717" selection-end="8765" vertical-scroll-proportion="-9.321428">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/companyCulture.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="10" selection-start="6723" selection-end="6723" vertical-scroll-proportion="0.6828753">
+        <state line="123" column="10" selection-start="6741" selection-end="6741" vertical-scroll-proportion="0.063307494">
           <folding>
             <element signature="e#811#915#0" expanded="false" />
             <element signature="tag#script#14;tag#head#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#script#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#script#3;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#script#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
