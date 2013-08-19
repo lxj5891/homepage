@@ -63,7 +63,7 @@
     <file path="$PROJECT_DIR$/../DAC/github/AppstoreWeb/modules/mod_app.js" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1376378685383" ignored="false" />
     <file path="/mod_app.js" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1376378661575" ignored="false" />
     <file path="$PROJECT_DIR$/../Dev/root/qcheng/README.md" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1376393596371" ignored="false" />
-    <file path="/companyCulture.html" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1376911284085" ignored="false" />
+    <file path="/companyCulture.html" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1376911600319" ignored="false" />
     <file path="/companyCulture -v-iframe.html" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1376896891367" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,14 +87,13 @@
       <file leaf-file-name="companyCulture.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/companyCulture.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="10" selection-start="6741" selection-end="6741" vertical-scroll-proportion="0.063307494">
+            <state line="39" column="7" selection-start="2137" selection-end="2137" vertical-scroll-proportion="-3.221629">
               <folding>
                 <element signature="e#811#915#0" expanded="false" />
                 <element signature="tag#script#14;tag#head#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#2;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#script#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#script#3;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#script#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#img#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#script#7;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
               </folding>
@@ -282,7 +281,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16547619" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297491" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -372,10 +371,9 @@
           <folding>
             <element signature="e#811#915#0" expanded="false" />
             <element signature="tag#script#14;tag#head#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#2;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#script#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#script#3;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#script#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#img#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#script#7;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
           </folding>
@@ -470,14 +468,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/companyCulture.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="10" selection-start="6741" selection-end="6741" vertical-scroll-proportion="0.063307494">
+        <state line="39" column="7" selection-start="2137" selection-end="2137" vertical-scroll-proportion="-3.221629">
           <folding>
             <element signature="e#811#915#0" expanded="false" />
             <element signature="tag#script#14;tag#head#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#2;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#script#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#script#3;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#script#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#img#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#script#7;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
           </folding>
