@@ -1,0 +1,353 @@
+/* Global Navi */
+
+
+/*w:480px浠ヤ笅銇伩琛ㄧず*/
+#GlobalMini{ display:none;}
+
+
+#Global{
+    position:absolute;
+    top:0; left:0;
+    width:980px;
+    height:200px;
+}
+
+#GlobalNavi,#GlobalNaviDAC,#GlobalNaviDAE{
+    clear: both;
+    display: block;
+    width:698px;
+    position:relative;
+    top:96px; left:280px;
+    height:64px;
+    margin:0 0 5px 0;
+}
+#GlobalNavi li,
+#GlobalNaviDAC li,
+#GlobalNaviDAE li{position:absolute;top:0;}
+
+#GlobalNavi li a,
+#GlobalNaviDAC li a,
+#GlobalNaviDAE li a{
+    display:block;
+    border-bottom:#fff solid 4px;
+    height:43px;
+    overflow:hidden;
+    line-height:200px;
+    font-size:12px;
+}
+
+#GlobalNavi li a{background:url(../images/header_jp.png) left top no-repeat;	}
+#GlobalNaviDAC li a{background:url(../images/header_cn.png) left top no-repeat;	}
+#GlobalNaviDAE li a{background:url(../images/header_en.png) left top no-repeat;	}
+
+#GlobalNavi li.On a,
+#GlobalNavi li a:hover,
+/*
+#GlobalNaviDAC li.On a,
+#GlobalNaviDAC li a:hover,
+*/
+#GlobalNaviDAE li.On a,
+#GlobalNaviDAE li a:hover{border-bottom:#d6d6d6 solid 4px;}
+
+#GlobalNavi li.Home{left:0;}
+#GlobalNavi li.Home a{width:116px;	background-position:0 0;}
+#GlobalNavi li.Home a:hover{background-position:0 -48px;}
+#GlobalNaviDAC li.Home,
+#GlobalNaviDAE li.Home{left:0;}
+#GlobalNaviDAC li.Home a,
+#GlobalNaviDAE li.Home a{width:116px;	background-position:0 0;}
+#GlobalNaviDAC li.Home a:hover,
+#GlobalNaviDAE li.Home a:hover{background-position:0 -48px;}
+
+#GlobalNavi li.Solution{left:116px;}
+#GlobalNavi li.Solution a{width:116px;background-position:-116px 0;}
+#GlobalNavi li.Solution a:hover{background-position:-116px -48px;}
+#GlobalNaviDAC li.Solution,
+#GlobalNaviDAE li.Solution{left:116px;}
+#GlobalNaviDAC li.Solution a,
+#GlobalNaviDAE li.Solution a{width:116px;background-position:-116px 0;}
+#GlobalNaviDAC li.Solution a:hover,
+#GlobalNaviDAE li.Solution a:hover{	background-position:-116px -48px;}
+
+
+#GlobalNavi li.Case{left:232px;}
+#GlobalNavi li.Case a{width:116px;	background-position:-232px 0;}
+#GlobalNavi li.Case a:hover{background-position:-232px -48px;}
+#GlobalNaviDAC li.Case,
+#GlobalNaviDAE li.Case{left:232px;}
+#GlobalNaviDAC li.Case a,
+#GlobalNaviDAE li.Case a{width:116px;background-position:-232px 0;}
+#GlobalNaviDAC li.Case a:hover,
+#GlobalNaviDAE li.Case a:hover{	background-position:-232px -48px;}
+
+
+#GlobalNavi li.Seminar{	left:348px;}
+#GlobalNavi li.Seminar a{	width:116px;	background-position:-348px 0;}
+#GlobalNavi li.Seminar a:hover{	background-position:-348px -48px;}
+#GlobalNaviDAC li.Seminar,
+#GlobalNaviDAE li.Seminar{left:348px;}
+#GlobalNaviDAC li.Seminar a,
+#GlobalNaviDAE li.Seminar a{width:116px;background-position:-348px 0;}
+#GlobalNaviDAC li.Seminar a:hover,
+#GlobalNaviDAE li.Seminar a:hover{background-position:-348px -48px;}
+
+
+#GlobalNavi li.News{left:464px;}
+#GlobalNavi li.News a{	width:116px;	background-position:-464px 0;}
+#GlobalNavi li.News a:hover{background-position:-464px -48px;}
+#GlobalNaviDAC li.News,
+#GlobalNaviDAE li.News{	left:464px;}
+#GlobalNaviDAC li.News a,
+#GlobalNaviDAE li.News a{	width:116px;background-position:-464px 0;}
+#GlobalNaviDAC li.News a:hover,
+#GlobalNaviDAE li.News a:hover{	background-position:-464px -48px;}
+
+
+#GlobalNavi li.Company{	left:580px;	}
+#GlobalNavi li.Company a{width:116px;	background-position:-580px 0;}
+#GlobalNavi li.Company a:hover{	background-position:-580px -48px;}
+#GlobalNaviDAC li.Company,
+#GlobalNaviDAE li.Company{left:593px;	}
+#GlobalNaviDAC li.Company a,
+#GlobalNaviDAE li.Company a{width:116px;background-position:-580px 0;}
+#GlobalNaviDAC li.Company a:hover,
+#GlobalNaviDAE li.Company a:hover{	background-position:-580px -48px;}
+
+#GlobalNavi li.DreamArts,#GlobalNaviDAC li.DreamArts,#GlobalNaviDAE li.DreamArts{
+    top:-96px; right:0;
+    display:block;
+    width:210px; height:90px;
+}
+#GlobalNavi li.DreamArts a,
+#GlobalNavi li.DreamArts a:hover,
+#GlobalNaviDAC li.DreamArts a,
+#GlobalNaviDAC li.DreamArts a:hover,
+#GlobalNaviDAE li.DreamArts a,
+#GlobalNaviDAE li.DreamArts a:hover{
+
+    display:block;
+    width:210px; height:90px;
+    background:url(../images/header_logo.png) center 30px no-repeat;
+    border:none;
+}
+
+#GlobalNavi li.CategoryTop,
+#GlobalNaviDAC li.CategoryTop,
+#GlobalNaviDAE li.CategoryTop{
+    top:-96px; left:-280px;
+    display:block;
+    width:200px; height:200px;
+}
+#GlobalNavi li.CategoryTop a,
+#GlobalNavi li.CategoryTop:hover,
+#GlobalNaviDAC li.CategoryTop a,
+#GlobalNaviDAC li.CategoryTop:hover,
+#GlobalNaviDAE li.CategoryTop a,
+#GlobalNaviDAE li.CategoryTop:hover
+{
+    display:block;
+    width:200px; height:190px;
+    border:none;
+    line-height:500px;
+    background:none;
+}
+
+
+
+/* Option Navi */
+
+#OptionNavi{
+    position:absolute;
+    top:0; left:280px;
+}
+
+#OptionNavi {
+    font-size:12px;
+    margin: 33px 0 35px;
+    float: left;
+    color: #949494;
+    padding:0;
+}
+
+#OptionNavi li {
+    padding: 0 18px;
+    line-height:100%;
+    margin-top:6px;
+}
+
+#OptionNavi li.NoStyle {
+    padding: 0 18px 0 4px;
+    background: none;
+}
+
+#OptionNavi li.Inquiry {
+    padding: 0 18px 0 0;
+    background: none;
+    border-right: #CCC solid 1px;
+}
+#OptionNavi li.Sitemap{
+    border-right: #CCC solid 1px;
+}
+
+#OptionNavi li.Search {
+    display: block;
+    padding: 6px 20px 5px 9px;
+    _padding-top: 3px;
+    background:url("/images/search_form_bg.png") 0px 0px no-repeat;
+    margin-top:0;
+}
+
+#yjSsTxtHead {
+    padding: 0 0 0 2px;
+    width:88px;
+    _height:19px;
+    border:0;
+}
+
+#yjSsFrmHead input[type="text"] {
+    outline:none;
+}
+
+#OptionNavi li.Chinese{
+    padding: 0 24px 0 0;
+}
+#OptionNavi li.CnEnglish{ padding:0;}	/* 涓浗瑾炪儦銉笺偢銇瓻nglish閰嶇疆瑾挎暣 */
+
+#OptionNavi li.Japanese a,
+#OptionNavi li.English a,
+#OptionNavi li.Chinese a {
+    display: block;
+    padding: 0 0 0 8px;
+    background: url("/images/search_icon02.gif") 0px 2px no-repeat;
+}
+#OptionNavi li.Chinese a {
+    border:none;
+}
+
+
+#OptionNavi a,
+#OptionNavi a:link,
+#OptionNavi a:visited{
+    color: #949494;
+}
+
+#OptionNavi a:hover,
+#OptionNavi a:focus {
+    color: #415d71;
+    text-decoration:none;
+}
+#OptionNavi li {
+    float: left;
+}
+
+
+/* 銉戙兂銇忋仛銉偣銉� */
+
+#Path{
+    position:absolute;
+    top:165px; left:280px;
+    z-index:1;
+}
+#Path {
+    margin: 10px 0;
+    font-size: 70%;
+    overflow: hidden;
+}
+#Path ul{ display:inline;}
+#Path ul li {
+    padding: 0 10px 0 20px;
+    background: url("/images/breadcrumbs.gif") 0px 4px no-repeat;
+    float: left;
+}
+#Path ul li.Home {
+    padding: 0 10px 0 0;
+    background: none;
+}
+/* 銈裤偆銉堛儷銇岀敾鍍忋仹銉戙兂銇忋仛銇玥1銈掔疆銇忓牬鍚� */
+#Path h1{ display:inline; font-size:100%; padding:0 0 0 20px; letter-spacing:normal;background: url("/images/breadcrumbs.gif") 0px 4px no-repeat;}
+
+/* 瑁藉搧鎯呭牨銉娿儞 */
+
+#ProductsNavi{
+    position:absolute;
+    top:165px; left:280px;
+}
+#ProductsNavi {
+    margin: 10px 0;
+    font-size: 70%;
+    overflow: hidden;
+}
+
+/*-- 瑁藉搧鐢ㄣ儕銉撱偛銉笺偡銉с兂 --*/
+#ProductsNavi{
+    clear: both;
+    width: 700px;
+    float: right;
+    margin-top:5px;
+    margin-bottom:10px;
+}
+#ProductsNavi ul{
+    margin:0; padding:0;
+    letter-spacing:-0.4em;/* Space Hack */
+}
+#ProductsNavi ul li{
+    display:inline-block;
+    *display:inline;*zoom:1;/* for IE */
+    width:170px;
+    font-size:12px;
+    line-height:13px;
+    margin:0; padding:0;
+    text-align:center;
+    border-right:#CCC solid 1px;
+    letter-spacing:normal;/* Space Hack */
+}
+#ProductsNavi ul li.sales{
+    border-right:none;
+}
+#ProductsNavi ul li a,
+#ProductsNavi ul li a:link,
+#ProductsNavi ul li a:visited{
+    color:#999;
+    display:block;
+    margin:0 10px;
+    padding:7px 0;
+    text-decoration:none;
+    border-bottom:#fff solid 1px;
+}
+#ProductsNavi ul li.sales a{
+    margin:0 0 0 10px;
+}
+#ProductsNavi ul li.sdb a{
+    margin:0 10px 0 0;
+}
+#ProductsNavi ul li.On a,
+#ProductsNavi ul li.On a:link,
+#ProductsNavi ul li.On a:visited{
+    color:#444;
+    background:#eeeded;
+}
+#ProductsNavi ul li a span.catch{
+    font-size:10px;
+    display:block;
+    /*-- 浠� 銉娿儞銈层兗銈枫儳銉抽儴鍒嗐伄銈儯銉冦儊銇潪琛ㄧず--*/
+    display:none;
+}
+#ProductsNavi ul li a:hover	{
+    color:#555;
+    background:#f0f0f0;
+}
+#ProductsNavi ul li a:active{
+    color:#963;
+    background:#f9f6f0;
+}
+#ProductsNavi ul li.On{}
+#ProductsNavi ul li.On a{}
+
+img.topic{
+	position:relative;
+    top:250px;
+	left:50px;
+}
+
+
+

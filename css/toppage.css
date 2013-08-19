@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+/*
+===== 1:index =====
+*/
+.Section{width:700px; float: right;}
+h1{position:absolute; top:0; right:0;width:210px; height:90px; text-indent:-9999px;}
+h2{ border:none;color: #0035a7; padding:1em 1em 0.4em; margin-top:0; display: inline-block; *display: inline;*zoom: 1; border-right:#999 1px solid; font-size:100%; vertical-align:top; font-weight:600; letter-spacing:normal;}
+h2.Lead{ border:none; position:relative; top:-20px; padding:0; margin:0; height:auto;}
+.Column a{ color:#4F4F4F !important;}
+.Column a:hover{ color: #36C !important; text-decoration:none;}
+
+
+#CycleLogo {
+	float:right;
+	position:relative; top:-36px; right:80px;
+	margin:0;
+	width: 192px;
+	height: 105px;
+	_height: auto!important;
+	_height: 105px;
+	zoom: 1;
+	overflow:hidden;
+}
+
+
+
+/*
+===== ImageNavi =====
+*/
+
+#mainVisual {margin:0;width:664px; padding:0; }
+#autoVisual {position: relative;width:673px;height:188px;overflow: hidden;top:0;}
+#autoNav {
+margin:0 0 0 -4px;
+height: 70px;
+list-style: none;
+overflow: hidden;
+zoom: 1;}
+
+#autoNav li {
+float: left;
+_display: inline;
+margin-left: 4px;
+width: auto;
+height: 100%;
+}
+#autoNav li a{ display:block; padding:0.8em 1em 0.8em 26px; color:#666; font-size:100%; font-weight:600; background: url(../images/idx_linkList_out.gif) no-repeat left top;}
+#autoNav li a:hover{ background: url(../images/idx_linkList_on.gif) no-repeat left top; color:#333; text-decoration:none;}
+
+/*
+===== TOPICS & What's New =====
+*/
+
+.TwoColumn{}
+
+.Column {
+	width:48%;	
+	min-height: 194px;
+	_height: auto!important;
+	_height: 174px;
+	border-left: 1px solid #aaa;
+	border-top: 1px solid #aaa;
+	float:left;
+	margin-bottom:60px;}
+.Column dl,.Column ul{ margin-left:1.5em;}
+.Column dl{ font-size:98%; line-height:1.4;}
+
+.Column dl dt{ float:left; font-size:90%;}
+.Column dl dd{ margin-left:95px; font-size:94%;}
+#Rss {padding: 14px 0 0 8px;}
+
+
+.Column dl dt span.Icon{
+	display:block;
+	width:70px;
+	height:14px;
+	text-decoration:none;
+	background-image: url(/images/idx_news_icon.png);
+	background-position:top left;
+	background-repeat:no-repeat;
+	text-indent:-1600px;
+	overflow:hidden;
+	/*float:left;*/
+}
+.Column dl dt span.IcoCampaign{background-position:0 0;}
+.Column dl dt span.IcoUpdate{background-position:0 -14px;}
+.Column dl dt span.IcoSeminar{background-position:0 -28px;}
+.Column dl dt span.IcoReport{background-position:0 -42px;}
+.Column dl dt span.IcoPress{background-position:0 -56px;}
+
+
+.TopicsBox{margin-right:2%;}
+.TopicsBox ul li{
+	background:url(../images/idx_arrow_icon.gif) no-repeat scroll right center transparent; 
+	clear:both; padding-right:34px; margin-right:24px;
+	font-size:124%;}

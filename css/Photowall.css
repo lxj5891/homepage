@@ -1,0 +1,35 @@
+* {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+   }
+body{
+	font:12px/180% Arial, Helvetica, sans-serif, "ÐÂËÎÌå";
+	}
+
+ul.Photo{
+	padding:3px;
+	width:920px;
+	margin:220px auto 0 auto;
+	}
+
+ul.Photo li{
+	margin:0;
+	padding:0px;
+	float:left;
+	position:relative;
+	width:102px;
+	height:136px;
+	}
+
+ul.Photo li img{
+	width:100px;
+	height:134px;
+	border:1px solid #ddd;
+	padding:2px;
+	background:#f0f0f0;
+	position:absolute;
+	left:0;
+	top:0;
+	-ms-interpolation-mode:bicubic;
+	}
