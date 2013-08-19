@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="utf-8">
     <meta property="og:image" content="http://www.dreamarts.co.jp/images/head_dalogo.gif">
     <link rel="stylesheet" href="css/layout.css?20130620" type="text/css">
+    <link rel="stylesheet" href="css/Photowall.css" type="text/css">
+    <style type="text/css">
+	ul.Photo li img.hover{margin-top:15px;background:url(imageswall/thumb_bg.png) no-repeat center center;border:none;}
+.title{position:absolute;width:165px;height:35px;margin:0;font-weight:900;background:url(imageswall/blue.png) no-repeat center center;padding:17px 0 0 0;text-align:center;color:#fff;}
+</style>
     <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script>
     <script type="text/javascript" src=js/other.js"></script>
     <script type="text/javascript" src="js/smartRollover.js"></script>
@@ -25,143 +31,39 @@
 	<script type="text/javascript" src="js/jquery-ui.js"></script>
     <!--<![endif]-->
     <script type="text/javascript" src="http://typesquare.com/accessor/script/typesquare.js?hk52knPAOhU%3D"></script>
+	<script type="text/javascript" src="js/zoomer.js"></script> 
     <script>  
-		$(function() {    $( "#Evolusion" ).tabs();  }); 
+		$(document).ready(function(){
+ 			$('ul.Photo li').Zoomer({
+				speedView:100,
+				speedRemove:400,
+				altAnim:true,
+				speedTitle:400,
+				debug:false
+			});
+		}); 
 	</script>
-    <title>职业发展 - DreamArts Corporation.</title>
+    <title>HomePage - DreamArts Corporation.</title>
 </head>
 <body class="Company Pattern01 NaviCnCorporateOverview">
 <div id="Container">
-    <div id="MainContents">
-        <div class="MainTitle">
-            <h1>职业发展</h1>
-        </div>
-		
-        <h2>公司名称</h2>
 
-        <p class="ecompany">株式会社DreamArts</p>
-
-        <h2>所在地</h2>
-        <dl class="ecompany">
-            <dt>东京总部</dt>
-            <dd>東京都渋谷区恵比寿4-20-3 恵比寿Garden Place Tower29F</dd>
-            <dt>广岛研发中心</dt>
-            <dd>広島県広島市中区基町13-13 広島基町NS Building 4F</dd>
-            <dt>冲绳研发中心</dt>
-            <dd>沖縄県那覇市泊3-15-5</dd>
-            <dt><a href="/chinese/index_dalian.html">大连研发中心</a></dt>
-            <dd>大连市软件园东路23号 15＃602-B（大连市软件园内）</dd>
-        </dl>
-        <h2>社长</h2>
-
-        <p class="ecompany">山本孝昭</p>
-
-        <h2>设立</h2>
-
-        <p class="ecompany">1996年(平成8年)12月</p>
-
-        <h2>资本金</h2>
-
-        <p class="ecompany">3亿日元(2009年8月为止)</p>
-
-        <h2>董事会成员</h2>
-        <dl class="ecompany">
-            <dt>前川 賢治</dt>
-            <dd>董事(最高技术责任者 兼 产品开发本部长)</dd>
-            <dt>牧山 公彦</dt>
-            <dd>董事(经营企画本部长)</dd>
-            <dt>吉村 厚司</dt>
-            <dd>董事(制品开发本部长)</dd>
-            <dt>安達 尊彦</dt>
-            <dd>董事(营业统括本部长)</dd>
-            <dt>妹尾 芳隆</dt>
-            <dd>董事(株式会社Fureai Channel 专务董事)</dd>
-            <dt>稲葉 智成</dt>
-            <dd>执行董事(<span id="result_box" lang="zh-CN">ICO企画推进本部长</span>)</dd>
-            <dt>金井 正義</dt>
-            <dd>监查(金井公认会计师事务所&nbsp;所长)</dd>
-            <dt>野澤 二三朝</dt>
-            <dd>监查</dd>
-            <dt>本木 一偉</dt>
-            <dd>监查(本木公认会计士事务所&nbsp;所长)</dd>
-        </dl>
-        <h2>顾问</h2>
-        <dl class="ecompany">
-            <dt>遠藤 功</dt>
-            <dd>罗兰贝格咨询公司 日本法人会长</dd>
-            <dd>早稻田大学大学院教授</dd>
-        </dl>
-        <h2>业务内容</h2>
-
-        <p class="ecompany">■面向大型企业・组织机构的软件产品业务</p>
-        <ul class="Disc ecompany">
-            <li>EIP型GroupWare&nbsp;<strong>INSUITE®</strong></li>
-            <li>BPM型Web数据库&nbsp;<strong>HIBIKI®Sm@rtDB</strong></li>
-            <li>营业力强化系统&nbsp;<strong>HIBIKI®Sales</strong></li>
-            <li>连锁经营的革新型云服务<strong>Shop籣®</strong></li>
-        </ul>
-        <p class="ecompany">■将尖端技术・市场营销融为一体的系统开发与咨询业务</p>
-
-        <h2>主要客户</h2>
-
-        <p class="ecompany">全日本空输株式会社 /株式会社商船三井 / 国誉株式会社 / 尤妮佳株式会社 / 株式会社优衣库 /
-        <nobr>爱速客乐株式会社</nobr>
-        / EDION集团/ 九州电力株式会社　等</p>
-        <h2>主要合作伙伴</h2>
-
-        <p class="ecompany">株式会社IIJ / SCSK株式会社 / TIS株式会社 / Toshiba Solutions株式会社 /
-        <nobr>株式会社野村综研</nobr>
-        /
-        <nobr>株式会社PFU</nobr>
-        　等</p>
-
-        <div class="BackToTop"><a href="#Top">返回最上面</a><!-- /.BackToTop --></div>
-
-        <!-- /#MainContents -->
-    </div>
-    <div id="SubNavi">
-
-        <ul class="First">
-            <li id="NaviTitle"><a href="/chinese/">公司简介</a></li>
-            <li class="NaviCnCorporateOverview">
-                <div><a href="/chinese/">印象DAC</a></div>
-            </li>
-            <li class="NaviCnMessage">
-                <div><a href="companyCulture.html">企业文化</a></div>
-            </li>
-            <li class="NaviCnBusiness">
-                <div><a href="/chinese/business.html">校园招聘</a></div>
-            </li>
-            <li class="NaviCnStaff">
-                <div><a href="evolusion.html">职业发展</a></div>
-            </li>
-            <!--li class="NaviCnRecruit"><div><a href="/chinese/recruit.html">东京总部应届生招聘信息</a></div></li-->
-            <!--20120905非表示に変更-->
-<!--            <li class="NaviCnRecruitDalian">
-                <div><a href="/chinese/recruit_dalian.html">Q&A</a></div>-->
-            </li>
-            <li class="NaviCnFaq">
-                <div><a href="/chinese/faq.html">招聘Q&amp;A</a></div>
-            </li>
-        </ul>
-
-        <div id="Promotion" class="ClearFix">
-            <ul>
-                <li></li>
-            </ul>
-        </div>
-
-
-    </div>
-    <!-- /#SubNavi -->
+   
     <div id="Global">
         <ul id="GlobalNaviDAC">
             <li class="DreamArts"><a href="/" title="株式会社ドリーム・アーツ">株式会社ドリーム・アーツ</a></li>
-            <li class="Home"><a href="/" title="Home">Home</a></li>
-            <li class="Solution"><a href="companyProfile.html" title="印象DAC">公司介绍</a></li>
-            <li class="Case"><a href="companyCulture.html" title="企业文化">企业文化</a></li>
+            <li class="Home"><a href="/" title="Home">首页</a></li>
+            <li class="Solution"><a href="companyProfile.html" title="公司掠影">公司掠影</a></li>
+            <li class="Case"><a href="companyCulture.html" title="DAC印象">DAC印象</a>
+			<ul>
+				<li><a href="#" class="culture">企业文化</a></li>
+				<li><a href="#" class="environment">工作环境</a></li>
+				<li><a href="#" class="training">培训</a></li>
+				<li><a href="#" class="activity">公司活动</a></li>
+			</ul>
+			</li>
 			<li class="Seminar"><a href="/company/news/" title="校园招聘">校园招聘</a></li>
-            <li class="News"><a href="evolusion.html" title="职业发展">职业发展</a></li>
+            <li class="News"><a href="evolusion.html" title="员工风采">员工风采</a></li>
             <li class="Company On"><a href="/company/" title="Q&A">Q&A</a></li>
             <li class="CategoryTop"><a href="/company/" title="Company">公司简介</a></li>
         </ul>
@@ -170,12 +72,9 @@
             <li class="English CnEnglish"><a href="/english/">English</a></li>
         </ul>
     </div>
-    <div id="Path">
-        <ul>
-            <li class="Home"><a href="/">首页</a></li>
-            <li>公司简介</li>
-        </ul>
-    </div>
+	
+    <div><img class="topic" src="images/topic.png" /></div>
+	
     <div id="Footer">
         <div class="Help">
             <ul>
@@ -187,6 +86,41 @@
             <!-- /#Help --></div>
 
         <!-- /#Footer --></div>
+		
+		
+	<!-- #Photo -->	
+<ul class="Photo">
+	<li><img src="imageswall/D1.jpg" alt="Robots like cameras" /></li>
+	<li><img src="imageswall/D2.jpg" alt="Monsters!" /></li>
+	<li><img src="imageswall/D3.jpg" alt="Santa down under" /></li>
+	<li><img src="imageswall/A1.jpg" alt="Sponguebob!" /></li>
+	<li><img src="imageswall/A2.jpg" alt="Star Wars" /></li>
+	<li><img src="imageswall/A3.jpg" alt="Hulk Smash!" /></li>
+	<li><img src="imageswall/C1.jpg" alt="Dinosaur time" /></li>
+	<li><img src="imageswall/C2.jpg" alt="Orange car" /></li>
+	<li><img src="imageswall/C3.jpg" alt="Aliens!" /></li>
+	<li><img src="imageswall/D4.jpg" alt="It's Superman!" /></li>
+	<li><img src="imageswall/D5.jpg" alt="Where's my lasagne?" /></li>
+	<li><img src="imageswall/D6.jpg" alt="The bridge at Sunset" /></li>
+	<li><img src="imageswall/A4.jpg" alt="Peanuts!" /></li>
+	<li><img src="imageswall/A5.jpg" alt="1956 Yellow Car" /></li>
+	<li><img src="imageswall/A6.jpg" alt="Ooooh. Pretty" /></li>
+	<li><img src="imageswall/C4.jpg" alt="Lets build something" /></li>
+	<li><img src="imageswall/C5.jpg" alt="Puppy love" /></li>
+	<li><img src="imageswall/C6.jpg" alt="It's a Toy Story" /></li>
+	<li><img src="imageswall/D7.jpg" alt="It's Superman!" /></li>
+	<li><img src="imageswall/D8.jpg" alt="Where's my lasagne?" /></li>
+	<li><img src="imageswall/D9.jpg" alt="The bridge at Sunset" /></li>
+	<li><img src="imageswall/A7.jpg" alt="Peanuts!" /></li>
+	<li><img src="imageswall/A8.jpg" alt="1956 Yellow Car" /></li>
+	<li><img src="imageswall/A9.jpg" alt="Ooooh. Pretty" /></li>
+	<li><img src="imageswall/C7.jpg" alt="Lets build something" /></li>
+	<li><img src="imageswall/C8.jpg" alt="Puppy love" /></li>
+	<li><img src="imageswall/C9.jpg" alt="It's a Toy Story" /></li>
+</ul>	
+		
+		
+	<!-- /#Photo -->		
     <script type="text/javascript">
         var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
         document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));

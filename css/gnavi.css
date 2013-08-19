@@ -42,75 +42,76 @@
 
 #GlobalNavi li.On a,
 #GlobalNavi li a:hover,
+/*
 #GlobalNaviDAC li.On a,
 #GlobalNaviDAC li a:hover,
+*/
 #GlobalNaviDAE li.On a,
 #GlobalNaviDAE li a:hover{border-bottom:#d6d6d6 solid 4px;}
 
 #GlobalNavi li.Home{left:0;}
-#GlobalNavi li.Home a{width:70px;	background-position:0 0;}
+#GlobalNavi li.Home a{width:116px;	background-position:0 0;}
 #GlobalNavi li.Home a:hover{background-position:0 -48px;}
 #GlobalNaviDAC li.Home,
 #GlobalNaviDAE li.Home{left:0;}
 #GlobalNaviDAC li.Home a,
-#GlobalNaviDAE li.Home a{width:70px;	background-position:0 0;}
+#GlobalNaviDAE li.Home a{width:116px;	background-position:0 0;}
 #GlobalNaviDAC li.Home a:hover,
 #GlobalNaviDAE li.Home a:hover{background-position:0 -48px;}
 
-#GlobalNavi li.Solution{left:70px;}
-#GlobalNavi li.Solution a{width:183px;background-position:-70px 0;}
-#GlobalNavi li.Solution a:hover{background-position:-70px -48px;}
+#GlobalNavi li.Solution{left:116px;}
+#GlobalNavi li.Solution a{width:116px;background-position:-116px 0;}
+#GlobalNavi li.Solution a:hover{background-position:-116px -48px;}
 #GlobalNaviDAC li.Solution,
-#GlobalNaviDAE li.Solution{left:70px;}
+#GlobalNaviDAE li.Solution{left:116px;}
 #GlobalNaviDAC li.Solution a,
-#GlobalNaviDAE li.Solution a{width:183px;background-position:-70px 0;}
+#GlobalNaviDAE li.Solution a{width:116px;background-position:-116px 0;}
 #GlobalNaviDAC li.Solution a:hover,
-#GlobalNaviDAE li.Solution a:hover{	background-position:-70px -48px;}
+#GlobalNaviDAE li.Solution a:hover{	background-position:-116px -48px;}
 
 
-#GlobalNavi li.Case{left:253px;}
-#GlobalNavi li.Case a{width:120px;	background-position:-253px 0;}
-#GlobalNavi li.Case a:hover{background-position:-253px -48px;}
+#GlobalNavi li.Case{left:232px;}
+#GlobalNavi li.Case a{width:116px;	background-position:-232px 0;}
+#GlobalNavi li.Case a:hover{background-position:-232px -48px;}
 #GlobalNaviDAC li.Case,
-#GlobalNaviDAE li.Case{left:253px;}
+#GlobalNaviDAE li.Case{left:232px;}
 #GlobalNaviDAC li.Case a,
-#GlobalNaviDAE li.Case a{width:120px;background-position:-253px 0;}
+#GlobalNaviDAE li.Case a{width:116px;background-position:-232px 0;}
 #GlobalNaviDAC li.Case a:hover,
-#GlobalNaviDAE li.Case a:hover{	background-position:-253px -48px;}
+#GlobalNaviDAE li.Case a:hover{	background-position:-232px -48px;}
 
 
-#GlobalNavi li.Seminar{	left:373px;}
-#GlobalNavi li.Seminar a{	width:110px;	background-position:-373px 0;}
-#GlobalNavi li.Seminar a:hover{	background-position:-373px -48px;}
+#GlobalNavi li.Seminar{	left:348px;}
+#GlobalNavi li.Seminar a{	width:116px;	background-position:-348px 0;}
+#GlobalNavi li.Seminar a:hover{	background-position:-348px -48px;}
 #GlobalNaviDAC li.Seminar,
-#GlobalNaviDAE li.Seminar{left:373px;}
+#GlobalNaviDAE li.Seminar{left:348px;}
 #GlobalNaviDAC li.Seminar a,
-#GlobalNaviDAE li.Seminar a{width:110px;background-position:-373px 0;}
+#GlobalNaviDAE li.Seminar a{width:116px;background-position:-348px 0;}
 #GlobalNaviDAC li.Seminar a:hover,
-#GlobalNaviDAE li.Seminar a:hover{background-position:-373px -48px;}
+#GlobalNaviDAE li.Seminar a:hover{background-position:-348px -48px;}
 
 
-#GlobalNavi li.News{left:483px;}
-#GlobalNavi li.News a{	width:110px;	background-position:-483px 0;}
-#GlobalNavi li.News a:hover{background-position:-483px -48px;}
+#GlobalNavi li.News{left:464px;}
+#GlobalNavi li.News a{	width:116px;	background-position:-464px 0;}
+#GlobalNavi li.News a:hover{background-position:-464px -48px;}
 #GlobalNaviDAC li.News,
-#GlobalNaviDAE li.News{	left:483px;}
+#GlobalNaviDAE li.News{	left:464px;}
 #GlobalNaviDAC li.News a,
-#GlobalNaviDAE li.News a{	width:110px;background-position:-483px 0;}
+#GlobalNaviDAE li.News a{	width:116px;background-position:-464px 0;}
 #GlobalNaviDAC li.News a:hover,
-#GlobalNaviDAE li.News a:hover{	background-position:-483px -48px;}
+#GlobalNaviDAE li.News a:hover{	background-position:-464px -48px;}
 
 
-#GlobalNavi li.Company{	left:593px;	}
-#GlobalNavi li.Company a{width:105px;	background-position:-593px 0;}
-#GlobalNavi li.Company a:hover{	background-position:-593px -48px;}
+#GlobalNavi li.Company{	left:580px;	}
+#GlobalNavi li.Company a{width:116px;	background-position:-580px 0;}
+#GlobalNavi li.Company a:hover{	background-position:-580px -48px;}
 #GlobalNaviDAC li.Company,
 #GlobalNaviDAE li.Company{left:593px;	}
 #GlobalNaviDAC li.Company a,
-#GlobalNaviDAE li.Company a{width:105px;background-position:-593px 0;}
+#GlobalNaviDAE li.Company a{width:116px;background-position:-580px 0;}
 #GlobalNaviDAC li.Company a:hover,
-#GlobalNaviDAE li.Company a:hover{	background-position:-593px -48px;}
-
+#GlobalNaviDAE li.Company a:hover{	background-position:-580px -48px;}
 
 #GlobalNavi li.DreamArts,#GlobalNaviDAC li.DreamArts,#GlobalNaviDAE li.DreamArts{
     top:-96px; right:0;
@@ -341,6 +342,12 @@
 }
 #ProductsNavi ul li.On{}
 #ProductsNavi ul li.On a{}
+
+img.topic{
+	position:relative;
+    top:250px;
+	left:50px;
+}
 
 
 
