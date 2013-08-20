@@ -4,13 +4,13 @@
 	list-style-type:none;
    }
 body{
-	font:12px/180% Arial, Helvetica, sans-serif, "ĞÂËÎÌå";
+	font:12px/180% Arial, Helvetica, sans-serif, "ĞÂËÎÌE;
 	}
 
 ul.Photo{
-	padding:3px;
+	padding:0px;
 	width:920px;
-	margin:220px auto 0 auto;
+	margin:200px auto 0 auto;
 	}
 
 ul.Photo li{
@@ -26,7 +26,7 @@ ul.Photo li img{
 	width:100px;
 	height:134px;
 	border:1px solid #ddd;
-	padding:2px;
+	padding:0px;
 	background:#f0f0f0;
 	position:absolute;
 	left:0;
