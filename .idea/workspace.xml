@@ -7,8 +7,7 @@
       <change type="DELETED" beforePath="D:\git\homepage\images\header_cn1.png" afterPath="" />
       <change type="DELETED" beforePath="D:\git\homepage\images\header_cn2.png" afterPath="" />
       <change type="DELETED" beforePath="D:\git\homepage\images\header_jp.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/topic.png" afterPath="$PROJECT_DIR$/images/topic.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/companyProfile.html" afterPath="$PROJECT_DIR$/companyProfile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/campusRecruitment.html" afterPath="$PROJECT_DIR$/campusRecruitment.html" />
     </list>
     <ignored path="homepage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,6 +71,7 @@
     <file path="/companyCulture.html" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1376963156096" ignored="false" />
     <file path="/companyCulture -v-iframe.html" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1376896891367" ignored="false" />
     <file path="/employeeAppearance.html" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1376963253711" ignored="false" />
+    <file path="/campusRecruitment.html" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1376965793422" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,13 +105,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="companyProfile.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="companyProfile.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/companyProfile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="10" selection-start="2077" selection-end="2077" vertical-scroll-proportion="0.4339119">
+            <state line="39" column="10" selection-start="2077" selection-end="2077" vertical-scroll-proportion="-6.1320753">
               <folding>
                 <element signature="tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="campusRecruitment.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/campusRecruitment.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="111" column="17" selection-start="3861" selection-end="3861" vertical-scroll-proportion="0.6382429">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -143,7 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/css/layout.css" />
         <option value="$PROJECT_DIR$/css/gnavi.css.html" />
         <option value="$PROJECT_DIR$/css/sidenavi.css" />
         <option value="$PROJECT_DIR$/css/footer.css" />
@@ -159,6 +167,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/employeeAppearance.html" />
         <option value="$PROJECT_DIR$/companyProfile.html" />
+        <option value="$PROJECT_DIR$/campusRecruitment.html" />
       </list>
     </option>
   </component>
@@ -380,13 +389,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/sidenavi.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1025" column="0" selection-start="49791" selection-end="49791" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/gnavi.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="128" column="21" selection-start="4038" selection-end="4038" vertical-scroll-proportion="0.0">
@@ -482,10 +484,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/companyProfile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="10" selection-start="2077" selection-end="2077" vertical-scroll-proportion="0.4339119">
+        <state line="39" column="10" selection-start="2077" selection-end="2077" vertical-scroll-proportion="-6.1320753">
           <folding>
             <element signature="tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/campusRecruitment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="111" column="17" selection-start="3861" selection-end="3861" vertical-scroll-proportion="0.6382429">
+          <folding />
         </state>
       </provider>
     </entry>
