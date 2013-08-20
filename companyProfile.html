@@ -9,6 +9,8 @@
     <script type="text/javascript" src="js/smartRollover.js"></script>
     <script type="text/javascript" src="js/yahoo.js"></script>
     <script type="text/javascript" src="js/smoothscroll.js"></script>
+    <script type="text/javascript" src="js/jquery.pin.js"</script>
+    <script type="text/javascript" src="js/jquery.pin.min.js"></script>
     <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
     <!--[if IE 6]>
     <script type="text/javascript" src="js/iepngfix_tilebg.js"></script>
@@ -31,13 +33,13 @@
     <title>公司发展 - DreamArts Corporation.</title>
 </head>
 <body class="Company Pattern01 NaviCnCorporateOverview">
-<div id="Container">
+<div id="Container" class="Container">
 <div id="MainContents">
     <div class="MainTitle">
         <h1>公司掠影</h1>
     </div>
 
-    <h2>公司介绍</h2>
+    <a name="intro" id="intro"><h2>公司介绍</h2></a>
 	<div class="PicLeft">
 		<img class="noFrame" width="312" height="426" src="images/DAC1.gif">
 	</div>
@@ -65,7 +67,7 @@
 	
 	<br/>	<br/>
 	
-		<h2>社长寄语</h2>
+		<a name="mes" id="mes"><h2>社长寄语</h2></a>
 		<div class="PicLeft"><img width="232" height="456" src="images/pho_yamamoto_4.jpg" class="noFrame"></div>
 		<div align="right"><img width="156" height="101" src="images/pho_yamamoto_name.gif"></div>
 		<p>Dreamarts正在为最大限度地强化组织机构的"现场力"而不断努力着。无论是战略方针还是领导能力，只有在工作现场才能得到实现。在现今风云多变的全球化经济浪潮中，只有"现场力"才是一个企业强盛的源泉，才是其竞争力的基础。Dreamarts正是将"强化现场力"作为公司提供价值的基本定位，竭诚为客户提供策划、开发以软件包产品为核心的IT解决方案。</p>
@@ -77,7 +79,7 @@
  
 	<br/>	<br/>
 		
-    <h2>One DA</h2>
+    <a name="oneDA" id="oneDA"><h2>One DA</h2></a>
 	<p align="center">
 	<img width="566" height="361" alt="One DA" src="images/One DA.png">
 	</p>
@@ -87,7 +89,7 @@
 	
 	
 	<br/>	<br/>
-	 <h2>公司客户 & 合作伙伴</h2>
+	 <a id="partener" name="partener"><h2>公司客户 & 合作伙伴</h2></a>
 	 <div class="PicLeft"><img src="images/kehu.png" alt="重要客户" width="399" height="421"/></div>
 	 		<br/>
 	
@@ -99,7 +101,7 @@
         / EDION集团/ 九州电力株式会社　等</p>
 		<br/>
 	<br/>	
-	<p class="ecompany">■合作伙伴<br/>
+	 <p class="ecompany">■合作伙伴<br/>
         株式会社IIJ / SCSK株式会社 / TIS株式会社 / Toshiba Solutions株式会社 /
         <nobr>株式会社野村综研</nobr>
         /
@@ -112,29 +114,26 @@
 
     <!-- /#MainContents -->
 </div>
-<div id="SubNavi">
+<div id="SubNavi" class="pinned">
 
     <ul class="First">
-        <li id="NaviTitle"><a href="/chinese/">公司简介</a></li>
+        <li id="NaviTitle"><a>公司掠影</a></li>
         <li class="NaviCnCorporateOverview">
-            <div><a href="/chinese/">印象DAC</a></div>
+            <div><a href="#intro">公司简介</a></div>
         </li>
         <li class="NaviCnMessage">
-            <div><a href="companyCulture.html">企业文化</a></div>
+            <div><a href="#mes">社长寄语</a></div>
+        </li>
+        <li class="NaviCnMessage">
+            <div><a href="#oneDA">oneDA</a></div>
         </li>
         <li class="NaviCnBusiness">
-            <div><a href="/chinese/business.html">校园招聘</a></div>
-        </li>
-        <li class="NaviCnStaff">
-            <div><a href="evolusion.html">职业发展</a></div>
+            <div><a href="#partener">合作伙伴</a></div>
         </li>
         <!--li class="NaviCnRecruit"><div><a href="/chinese/recruit.html">东京总部应届生招聘信息</a></div></li-->
         <!--20120905非表示に変更-->
         <!--            <li class="NaviCnRecruitDalian">
                         <div><a href="/chinese/recruit_dalian.html">Q&A</a></div>-->
-        </li>
-        <li class="NaviCnFaq">
-            <div><a href="/chinese/faq.html">招聘Q&amp;A</a></div>
         </li>
     </ul>
 
@@ -150,23 +149,16 @@
 <div id="Global">
     <ul id="GlobalNaviDAC">
         <li class="DreamArts"><a href="/" title="株式会社ドリーム・アーツ">株式会社ドリーム・アーツ</a></li>
-        <li class="Home"><a href="/" title="Home">Home</a></li>
+        <li class="Home"><a href="index.html" title="Home">主页</a></li>
         <li class="Solution"><a href="companyProfile.html" title="印象DAC">公司介绍</a></li>
         <li class="Case"><a href="companyCulture.html" title="企业文化">企业文化</a></li>
-        <li class="Seminar"><a href="/company/news/" title="校园招聘">校园招聘</a></li>
+        <li class="Seminar"><a href="campusRecruitment.html" title="校园招聘">校园招聘</a></li>
         <li class="News"><a href="evolusion.html" title="职业发展">职业发展</a></li>
-        <li class="Company On"><a href="/company/" title="Q&A">Q&A</a></li>
-        <li class="CategoryTop"><a href="/company/" title="Company">公司简介</a></li>
+        <li class="Company On"><a href="QA.html" title="Q&A">Q&A</a></li>
     </ul>
     <ul id="OptionNavi">
         <li class="Japanese"><a href="/company/">Japanese</a></li>
         <li class="English CnEnglish"><a href="/english/">English</a></li>
-    </ul>
-</div>
-<div id="Path">
-    <ul>
-        <li class="Home"><a href="/">首页</a></li>
-        <li>公司简介</li>
     </ul>
 </div>
 <div id="Footer">
@@ -180,6 +172,7 @@
         <!-- /#Help --></div>
 
     <!-- /#Footer --></div>
+<script> $(".pinned").pin({containerSelector: ".Container", minWidth: 940})</script>
 <script type="text/javascript">
     var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
     document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));

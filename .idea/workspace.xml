@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" name="Default" comment="添加了海博">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/companyCulture.html" afterPath="$PROJECT_DIR$/companyCulture.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/employeeAppearance.html" afterPath="$PROJECT_DIR$/employeeAppearance.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="D:\git\homepage\images\arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\git\homepage\images\browser.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\git\homepage\images\header_cn1.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\git\homepage\images\header_cn2.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\git\homepage\images\header_jp.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/topic.png" afterPath="$PROJECT_DIR$/images/topic.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/companyProfile.html" afterPath="$PROJECT_DIR$/companyProfile.html" />
     </list>
     <ignored path="homepage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -13,7 +16,7 @@
     <file path="/a.dummy" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1376363805932" ignored="false" />
     <file path="/gnavi.css" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1375845468917" ignored="false" />
     <file path="/base.css" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1375845812749" ignored="false" />
-    <file path="/companyProfile.html" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1376206466244" ignored="false" />
+    <file path="/companyProfile.html" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1376964873698" ignored="false" />
     <file path="$PROJECT_DIR$/../Dev/root/qcheng/controllers/agent.js" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1376203252362" ignored="false" />
     <file path="/agent.js" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1376203239168" ignored="false" />
     <file path="$PROJECT_DIR$/../Dev/root/qcheng/views/agent/channels/channel_list.html" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1376203401999" ignored="false" />
@@ -91,14 +94,23 @@
       <file leaf-file-name="companyCulture.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/companyCulture.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="120" column="13" selection-start="6523" selection-end="6523" vertical-scroll-proportion="-5.928571">
+            <state line="39" column="18" selection-start="2120" selection-end="2129" vertical-scroll-proportion="44.773586">
               <folding>
                 <element signature="e#811#915#0" expanded="false" />
                 <element signature="tag#script#12;tag#head#0;tag#html#0" expanded="false" />
-                <element signature="tag#script#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#script#3;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#img#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#script#7;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="companyProfile.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/companyProfile.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="10" selection-start="2077" selection-end="2077" vertical-scroll-proportion="0.4339119">
+              <folding>
+                <element signature="tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -108,24 +120,6 @@
         <entry file="file://$PROJECT_DIR$/employeeAppearance.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="168" column="29" selection-start="7895" selection-end="7895" vertical-scroll-proportion="4.25">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="18" selection-start="3303" selection-end="3320" vertical-scroll-proportion="0.8291055">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../jquery.pin/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="145" column="71" selection-start="8717" selection-end="8765" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -157,7 +151,6 @@
         <option value="$PROJECT_DIR$/css/gnavi.css" />
         <option value="$PROJECT_DIR$/zhaopin.html" />
         <option value="$PROJECT_DIR$/css/base.css" />
-        <option value="$PROJECT_DIR$/companyProfile.html" />
         <option value="$PROJECT_DIR$/chinese.html" />
         <option value="$PROJECT_DIR$/compayCulture/companyCulture.html" />
         <option value="$PROJECT_DIR$/companyCulture -v-iframe.html" />
@@ -165,6 +158,7 @@
         <option value="$PROJECT_DIR$/companyCulture.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/employeeAppearance.html" />
+        <option value="$PROJECT_DIR$/companyProfile.html" />
       </list>
     </option>
   </component>
@@ -453,29 +447,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/companyProfile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="8" selection-start="4950" selection-end="5028" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../jquery.pin/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="145" column="71" selection-start="8717" selection-end="8765" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/companyCulture.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="13" selection-start="6523" selection-end="6523" vertical-scroll-proportion="-5.928571">
-          <folding>
-            <element signature="e#811#915#0" expanded="false" />
-            <element signature="tag#script#12;tag#head#0;tag#html#0" expanded="false" />
-            <element signature="tag#script#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#script#3;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#img#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#script#7;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -488,8 +463,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="18" selection-start="3303" selection-end="3320" vertical-scroll-proportion="0.8291055">
+        <state line="67" column="18" selection-start="3303" selection-end="3320" vertical-scroll-proportion="-11.716981">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/companyCulture.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="18" selection-start="2120" selection-end="2129" vertical-scroll-proportion="44.773586">
+          <folding>
+            <element signature="e#811#915#0" expanded="false" />
+            <element signature="tag#script#12;tag#head#0;tag#html#0" expanded="false" />
+            <element signature="tag#script#3;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#img#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/companyProfile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="10" selection-start="2077" selection-end="2077" vertical-scroll-proportion="0.4339119">
+          <folding>
+            <element signature="tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
