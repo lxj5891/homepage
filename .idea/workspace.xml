@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" name="Default" comment="添加了海博">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/companyCulture/bonus.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/companyCulture/env.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/companyCulture/train.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/compCulture/hireStandard.png" afterPath="$PROJECT_DIR$/images/compCulture/hireStandard.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QA.html" afterPath="$PROJECT_DIR$/QA.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/campusRecruitment.html" afterPath="$PROJECT_DIR$/campusRecruitment.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/companyBaas.html" afterPath="$PROJECT_DIR$/companyBaas.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/companyProfile.html" afterPath="$PROJECT_DIR$/companyProfile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/companypartener.html" afterPath="$PROJECT_DIR$/companypartener.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/employeeAppearance.html" afterPath="$PROJECT_DIR$/employeeAppearance.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/evolusion.html" afterPath="$PROJECT_DIR$/evolusion.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oneDA.html" afterPath="$PROJECT_DIR$/oneDA.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\git\homepage\companyCulture.html" afterPath="$PROJECT_DIR$/companyValue.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/companyCulture/bonus.html" afterPath="$PROJECT_DIR$/companyCulture/bonus.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/companyValue.html" afterPath="$PROJECT_DIR$/companyValue.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/companyCulture/env.html" afterPath="$PROJECT_DIR$/companyCulture/env.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/companyCulture/train.html" afterPath="$PROJECT_DIR$/companyCulture/train.html" />
     </list>
     <ignored path="homepage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +18,7 @@
     <file path="/agent.js" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1376203239168" ignored="false" />
     <file path="$PROJECT_DIR$/../Dev/root/qcheng/views/agent/channels/channel_list.html" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1376203401999" ignored="false" />
     <file path="/channel_list.html" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1376203401999" ignored="false" />
-    <file path="/Dummy.txt" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1377579184131" ignored="false" />
+    <file path="/Dummy.txt" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1377587517505" ignored="false" />
     <file path="$PROJECT_DIR$/../Dev/root/qcheng/public/javascripts/dac/dac.pagination.js" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1376204819621" ignored="false" />
     <file path="$PROJECT_DIR$/../Dev/root/qcheng/public/javascripts/dac/js.ts" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1376204944898" ignored="false" />
     <file path="$PROJECT_DIR$/../Dev/root/qcheng/public/mvc/news/news.app.js" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1376205797804" ignored="false" />
@@ -82,9 +71,9 @@
     <file path="/employeeAppearance.html" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1376963253711" ignored="false" />
     <file path="/campusRecruitment.html" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1376965793422" ignored="false" />
     <file path="/train.html" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1377583377150" ignored="false" />
-    <file path="/env.html" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1377583365822" ignored="false" />
-    <file path="/bonus.html" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1377583574887" ignored="false" />
-    <file path="/companyValue.html" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1377583531928" ignored="false" />
+    <file path="/env.html" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1377587792201" ignored="false" />
+    <file path="/bonus.html" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1377587716715" ignored="false" />
+    <file path="/companyValue.html" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1377587685940" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +96,7 @@
       <file leaf-file-name="companyValue.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/companyValue.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="50" selection-start="4200" selection-end="4200" vertical-scroll-proportion="-13.571428">
+            <state line="105" column="64" selection-start="4828" selection-end="4828" vertical-scroll-proportion="-71.25">
               <folding />
             </state>
           </provider>
@@ -116,16 +105,16 @@
       <file leaf-file-name="companyCulture-old.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../homepage back/companyCulture-old.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="114" selection-start="4859" selection-end="5640" vertical-scroll-proportion="-23.75">
+            <state line="98" column="114" selection-start="4859" selection-end="5640" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bonus.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="bonus.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/companyCulture/bonus.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="38" selection-start="5050" selection-end="5050" vertical-scroll-proportion="-13.285714">
+            <state line="65" column="10" selection-start="3754" selection-end="3754" vertical-scroll-proportion="0.75710595">
               <folding />
             </state>
           </provider>
@@ -134,16 +123,16 @@
       <file leaf-file-name="env.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/companyCulture/env.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="64" selection-start="4477" selection-end="4477" vertical-scroll-proportion="-14.642858">
+            <state line="6" column="30" selection-start="266" selection-end="266" vertical-scroll-proportion="46.82143">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="train.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="train.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/companyCulture/train.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="51" selection-start="2887" selection-end="2887" vertical-scroll-proportion="0.18677042">
+            <state line="106" column="67" selection-start="5134" selection-end="5134" vertical-scroll-proportion="-6.785714">
               <folding />
             </state>
           </provider>
@@ -152,7 +141,7 @@
       <file leaf-file-name="companyProfile.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/companyProfile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="31" selection-start="2460" selection-end="2460" vertical-scroll-proportion="-8.178572">
+            <state line="50" column="31" selection-start="2460" selection-end="2460" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -188,10 +177,10 @@
         <option value="$PROJECT_DIR$/companyProfile.html" />
         <option value="$PROJECT_DIR$/campusRecruitment.html" />
         <option value="$PROJECT_DIR$/companyCulture.html" />
-        <option value="$PROJECT_DIR$/companyCulture/env.html" />
         <option value="$PROJECT_DIR$/companyValue.html" />
-        <option value="$PROJECT_DIR$/companyCulture/bonus.html" />
+        <option value="$PROJECT_DIR$/companyCulture/env.html" />
         <option value="$PROJECT_DIR$/companyCulture/train.html" />
+        <option value="$PROJECT_DIR$/companyCulture/bonus.html" />
       </list>
     </option>
   </component>
@@ -228,6 +217,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -294,7 +284,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -304,8 +293,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -375,14 +364,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16547619" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297491" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30339807" sideWeight="0.67142856" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30825242" sideWeight="0.67142856" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -493,77 +482,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="18" selection-start="3303" selection-end="3320" vertical-scroll-proportion="-11.716981">
-          <folding />
-        </state>
+        <state line="67" column="18" selection-start="3303" selection-end="3320" vertical-scroll-proportion="-11.716981" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/campusRecruitment.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="33" selection-start="4702" selection-end="4702" vertical-scroll-proportion="0.9610895">
-          <folding />
-        </state>
+        <state line="125" column="33" selection-start="4702" selection-end="4702" vertical-scroll-proportion="0.9610895" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/companyBaas.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="71" selection-start="736" selection-end="736" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
+        <state line="12" column="71" selection-start="736" selection-end="736" vertical-scroll-proportion="-0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/employeeAppearance.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="168" column="29" selection-start="7895" selection-end="7895" vertical-scroll-proportion="0.02464332">
-          <folding />
-        </state>
+        <state line="168" column="29" selection-start="7895" selection-end="7895" vertical-scroll-proportion="0.02464332" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/oneDA.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="19" selection-start="2936" selection-end="2959" vertical-scroll-proportion="-10.178572">
-          <folding />
-        </state>
+        <state line="69" column="19" selection-start="2936" selection-end="2959" vertical-scroll-proportion="-10.178572" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../homepage back/companyCulture-old.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="114" selection-start="4859" selection-end="5640" vertical-scroll-proportion="-23.75">
+        <state line="98" column="114" selection-start="4859" selection-end="5640" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/companyProfile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="31" selection-start="2460" selection-end="2460" vertical-scroll-proportion="-8.178572">
+        <state line="50" column="31" selection-start="2460" selection-end="2460" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/companyValue.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="50" selection-start="4200" selection-end="4200" vertical-scroll-proportion="-13.571428">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/companyCulture/env.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="64" selection-start="4477" selection-end="4477" vertical-scroll-proportion="-14.642858">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/companyCulture/bonus.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="38" selection-start="5050" selection-end="5050" vertical-scroll-proportion="-13.285714">
+        <state line="105" column="64" selection-start="4828" selection-end="4828" vertical-scroll-proportion="-71.25">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/companyCulture/train.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="51" selection-start="2887" selection-end="2887" vertical-scroll-proportion="0.18677042">
+        <state line="106" column="67" selection-start="5134" selection-end="5134" vertical-scroll-proportion="-6.785714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/companyCulture/env.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="30" selection-start="266" selection-end="266" vertical-scroll-proportion="46.82143">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/companyCulture/bonus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="10" selection-start="3754" selection-end="3754" vertical-scroll-proportion="0.75710595">
           <folding />
         </state>
       </provider>
