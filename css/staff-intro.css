@@ -1,0 +1,18 @@
+.photo {
+	height: 260px;
+	width: 200px;
+}
+
+.left {
+	float: left;
+	margin: 5px 10px 5px 10px;
+}
+
+.right {
+	float: right;
+	margin: 5px 10px 5px 10px;
+}
+
+.contents p {
+	text-indent: 28px;
+}
