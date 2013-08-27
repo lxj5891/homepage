@@ -5,12 +5,12 @@
     <meta property="og:image" content="http://www.dreamarts.co.jp/images/head_dalogo.gif">
     <link rel="stylesheet" href="../css/layout.css?20130620" type="text/css">
     <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script>
-    <script type="text/javascript" src=../js/other.js"></script>
+    <script type="text/javascript" src="../js/other.js"></script>
     <script type="text/javascript" src="../js/smartRollover.js"></script>
     <script type="text/javascript" src="../js/yahoo.js"></script>
     <script type="text/javascript" src="../js/smoothscroll.js"></script>
 	<script type="text/javascript" src="../js/jquery-1.7.2.min.js"></script>
-    <script type="text/javascript" src="../js/jquery.pin.js"</script>
+    <script type="text/javascript" src="../js/jquery.pin.js"></script>
     <script type="text/javascript" src="../js/jquery.pin.min.js"></script>
     <!--[if IE 6]>
     <script type="text/javascript" src="../js/iepngfix_tilebg.js"></script>
@@ -38,14 +38,14 @@
 </head>
 <body class="Company Pattern01 NaviCnCorporateOverview">
 <div id="Container" class="Container">
-    <div id="MainContents">
+    <div id="MainContents" class="MainContents">
         <div class="MainTitle">
             <h1>DAC印象</h1>
 			<p>DAC倡导少数精英制，拒绝走平庸的路线。我们鼓励每一个员工的全面发展。只要你有想法，我们就不会束缚你，为你的梦想搭筑平台。</p>
         </div>
 	<div id="compayCulutre">
 		<div class="cul content">
-            <a name="welfare" id="welfare"><h2>特色福利</h2></a>
+            <h2>特色福利</h2>
             <p>公司会定期举办各种各样丰富多彩的活动。</p>
             <p>员工生日会，每个月的部门活动，各项体育活动，迎新会，春游，夏季的公司成立周年庆，忘年会……丰富多彩的活动等待着你来展示风采！</p>
             <p>另外，公司还提供各种培训。</p>
@@ -61,7 +61,8 @@
                     <a href="/"><img src="../images/compCulture/entertain5.jpg" alt="image05"><div>夏季BBQ</div></a>
                     <a href="/"><img src="../images/compCulture/entertain6.jpg" alt="image06"><div>自己动手，丰衣足食</div></a>
                     <a href="/"><img src="../images/compCulture/entertain7.jpg" alt="image07"><div>工作外的时间我们尽情欢乐</div></a>
-		</div>
+		        </div>
+        </div>
 	</div>
     <!-- /#SubNavi -->
     <div id="Global">
@@ -114,7 +115,7 @@
 
         <!-- /#Footer --></div>
 
-    <script> $(".pinned").pin({containerSelector: ".Container", minWidth: 940})</script>
+    <script> $(".pinned").pin({containerSelector: ".MainContents", minWidth: 940})</script>
     <script type="text/javascript">
         var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
         document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
