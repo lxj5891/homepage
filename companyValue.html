@@ -1,58 +1,62 @@
 <!DOCTYPE html>
 <html lang="ja">
-
 <head>
     <meta charset="utf-8">
     <meta property="og:image" content="http://www.dreamarts.co.jp/images/head_dalogo.gif">
     <link rel="stylesheet" href="css/layout.css?20130620" type="text/css">
-    <link rel="stylesheet" href="css/Photowall.css" type="text/css">
-    <style type="text/css">
-	ul.Photo li img.hover{margin-top:10px;background:url(imageswall/thumb_bg.png) no-repeat center center;border:none;}
-.title{position:absolute;width:165px;height:35px;margin:0;font-weight:900;background:url(imageswall/blue.png) no-repeat center center;padding:17px 0 0 0;text-align:center;color:#fff;}
-</style>
     <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script>
-    <script type="text/javascript" src=js/other.js"></script>
+    <script type="text/javascript" src="js/other.js"></script>
     <script type="text/javascript" src="js/smartRollover.js"></script>
     <script type="text/javascript" src="js/yahoo.js"></script>
     <script type="text/javascript" src="js/smoothscroll.js"></script>
 	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery.pin.js"></script>
+    <script type="text/javascript" src="js/jquery.pin.min.js"></script>
     <!--[if IE 6]>
     <script type="text/javascript" src="js/iepngfix_tilebg.js"></script>
     <![endif]-->
     <meta http-equiv="Content-Script-Type" content="text/javascript">
     <meta property="og:image" content="http://www.dreamarts.co.jp/images/head_dalogo.gif">
     <link rel="stylesheet" href="css/cn_style.css?20120615" type="text/css">
+	<link rel="stylesheet" href="css/orbit-1.2.3.css">
     <script type="text/javascript" src="js/ch_other.js"></script>
     <script type="text/javascript" src="js/smartRollover.js"></script>
     <script type="text/javascript" src="js/yahoo.js"></script>
     <!--[if !lte IE 6]><![IGNORE[--><!--[IGNORE[]]-->
     <script type="text/javascript" src="js/smoothscroll.js"></script>
 	<link rel="stylesheet" href="css/jquery-ui.css" type="text/css">
-	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/pictureBrows.css" />
+	<script type="text/javascript" src="js/jquery.orbit-1.2.3.min.js"></script>
     <!--<![endif]-->
     <script type="text/javascript" src="http://typesquare.com/accessor/script/typesquare.js?hk52knPAOhU%3D"></script>
-	<script type="text/javascript" src="js/zoomer.js"></script> 
-    <script>  
-		$(document).ready(function(){
- 			$('ul.Photo li').Zoomer({
-				speedView:100,
-				speedRemove:400,
-				altAnim:true,
-				speedTitle:400,
-				debug:false
+    <script type="text/javascript">
+			$(window).load(function() {
+				$('#featured').orbit();
 			});
-		}); 
 	</script>
-    <title>HomePage - DreamArts Corporation.</title>
+    <title>DAC印象 - DreamArts Corporation.</title>
 </head>
 <body class="Company Pattern01 NaviCnCorporateOverview">
-<div id="Container">
-
-   
+<div id="Container" class="Container">
+    <div id="MainContents" class="MainContents">
+        <div class="MainTitle">
+            <h1>DAC印象</h1>
+			<p>DAC倡导少数精英制，拒绝走平庸的路线。我们鼓励每一个员工的全面发展。只要你有想法，我们就不会束缚你，为你的梦想搭筑平台。</p>
+        </div>
+	<div id="compayCulutre">
+		<div class="cul content">
+            <<h2>我们的价值观</h2>
+            <img height="308px" width="625px" src="images/compCulture/DAValue.jpg" alt="价值观"/>
+            <h2>我们的人才观</h2>
+            <img height="308px" width="625px" src="images/compCulture/hireStandard.png" alt="人才观"/>
+		 
+		</div>
+	</div>
+    <!-- /#SubNavi -->
     <div id="Global">
         <ul id="GlobalNaviDAC">
             <li class="DreamArts"><a href="/" title="株式会社ドリーム・アーツ">株式会社ドリーム・アーツ</a></li>
-            <li class="Home"><a href="index.html" title="Home">首页</a></li>
+            <li class="Home"><a href="index.html" title="首页">首页</a></li>
             <li class="Solution"><a href="companyProfile.html" title="公司掠影">公司掠影</a></li>
             <li class="Case"><a href="companyValue.html" title="DAC印象">DAC印象</a></li>
 			<li class="Seminar"><a href="campusRecruitment.html" title="校园招聘">校园招聘</a></li>
@@ -64,56 +68,42 @@
             <li class="English CnEnglish"><a href="/english/">English</a></li>
         </ul>
     </div>
-	
-    <div><a href="campusRecruitment.html"><img class="topic" src="images/topic.png"></a></div>		
-		
-	<!-- #Photo -->	
-<ul class="Photo">
-	<li><img src="imageswall/D1.jpg" alt="Robots like cameras" /></li>
-	<li><img src="imageswall/D2.jpg" alt="Monsters!" /></li>
-	<li><img src="imageswall/D3.jpg" alt="Santa down under" /></li>
-	<li><img src="imageswall/A1.jpg" alt="Sponguebob!" /></li>
-	<li><img src="imageswall/A2.jpg" alt="Star Wars" /></li>
-	<li><img src="imageswall/A3.jpg" alt="Hulk Smash!" /></li>
-	<li><img src="imageswall/C1.jpg" alt="Dinosaur time" /></li>
-	<li><img src="imageswall/C2.jpg" alt="Orange car" /></li>
-	<li><img src="imageswall/C3.jpg" alt="Aliens!" /></li>
-	<li><img src="imageswall/D4.jpg" alt="It's Superman!" /></li>
-	<li><img src="imageswall/D5.jpg" alt="Where's my lasagne?" /></li>
-	<li><img src="imageswall/D6.jpg" alt="The bridge at Sunset" /></li>
-	<li><img src="imageswall/A4.jpg" alt="Peanuts!" /></li>
-	<li><img src="imageswall/A5.jpg" alt="1956 Yellow Car" /></li>
-	<li><img src="imageswall/A6.jpg" alt="Ooooh. Pretty" /></li>
-	<li><img src="imageswall/C4.jpg" alt="Lets build something" /></li>
-	<li><img src="imageswall/C5.jpg" alt="Puppy love" /></li>
-	<li><img src="imageswall/C6.jpg" alt="It's a Toy Story" /></li>
-	<li><img src="imageswall/D7.jpg" alt="It's Superman!" /></li>
-	<li><img src="imageswall/D8.jpg" alt="Where's my lasagne?" /></li>
-	<li><img src="imageswall/D9.jpg" alt="The bridge at Sunset" /></li>
-	<li><img src="imageswall/A7.jpg" alt="Peanuts!" /></li>
-	<li><img src="imageswall/A8.jpg" alt="1956 Yellow Car" /></li>
-	<li><img src="imageswall/A9.jpg" alt="Ooooh. Pretty" /></li>
-	<li><img src="imageswall/C7.jpg" alt="Lets build something" /></li>
-	<li><img src="imageswall/C8.jpg" alt="Puppy love" /></li>
-	<li><img src="imageswall/C9.jpg" alt="It's a Toy Story" /></li>
-</ul>	
-		
-		
-	<!-- /#Photo -->
-	
-	<div id="Footer">
-       <div class="Help">
-         <ul>
-             <li><a href="/english/">Corporate Overview</a></li>
-             <li><a href="/">Japanese</a></li>
-             <li><a href="/english/">English</a></li>
-             <li class="Right">Copyright © 1997-2013 DreamArts Corporation. All Rights Reserved.</li>
-         </ul>
-       <!-- /#Help --></div>
+    <div id="SubNavi" class="pinned">
+        <ul class="First">
+            <li id="NaviTitle">印象DAC</li>
+            <li class="NaviCnCorporateOverview">
+                <div><a href="companyValue.html">人才与价值观</a></div>
+            </li>
+            <li class="NaviCnMessage">
+                <div><a href="companyCulture/train.html">我们的培训</a></div>
+            </li>
+            <li class="NaviCnMessage">
+                <div><a href="companyCulture/env.html">工作环境</a></div>
+            </li>
+            <li class="NaviCnMessage">
+                <div><a href="companyCulture/bonus.html">公司活动</a></div>
+            </li>
+        </ul>
 
-    <!-- /#Footer --></div>
-	
-			
+        <div id="Promotion" class="ClearFix">
+            <ul>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+    <div id="Footer">
+        <div class="Help">
+            <ul>
+                <li><a href="/english/">Corporate Overview</a></li>
+                <li><a href="/">Japanese</a></li>
+                <li><a href="/english/">English</a></li>
+                <li class="Right">Copyright © 1997-2013 DreamArts Corporation. All Rights Reserved.</li>
+            </ul>
+            <!-- /#Help --></div>
+
+        <!-- /#Footer --></div>
+
+    <script> $(".pinned").pin({containerSelector: ".MainContents", minWidth: 940})</script>
     <script type="text/javascript">
         var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
         document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
