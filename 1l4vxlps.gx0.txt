@@ -1,0 +1,115 @@
+﻿Merge branch 'master' into gh-pages
+
+Conflicts:
+	.idea/workspace.xml
+	companyCulture/train.html
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch gh-pages
+# All conflicts fixed but you are still merging.
+#   (use "git commit" to conclude merge)
+#
+# Changes to be committed:
+#
+#	modified:   .idea/workspace.xml
+#	new file:   QA.html
+#	new file:   campusRecruitment.html
+#	new file:   companyBaas.html
+#	new file:   companyCulture/bonus.html
+#	new file:   companyCulture/env.html
+#	renamed:    companyCulture.html -> companyCulture/train.html
+#	modified:   companyProfile.html
+#	renamed:    cr.html -> companyValue.html
+#	new file:   companypartener.html
+#	modified:   css/Photowall.css
+#	modified:   css/footer.css
+#	modified:   css/gnavi.css
+#	new file:   css/orbit-1.2.3.css
+#	new file:   employeeAppearance.html
+#	modified:   evolusion.html
+#	modified:   images/1.jpg
+#	modified:   images/2.jpg
+#	modified:   images/3.jpg
+#	modified:   images/4.jpg
+#	modified:   images/5.jpg
+#	modified:   images/6.jpg
+#	new file:   images/DAC1.gif
+#	new file:   images/One DA.png
+#	new file:   images/compCulture/culture1.jpg
+#	modified:   images/compCulture/hireStandard.png
+#	new file:   images/faq_01.gif
+#	new file:   images/faq_02.gif
+#	new file:   images/faq_03.gif
+#	new file:   images/faq_04.gif
+#	new file:   images/faq_05.gif
+#	new file:   images/faq_06.gif
+#	new file:   images/faq_07.gif
+#	new file:   images/faq_a.gif
+#	new file:   "images/header_cn - \346\232\203\346\235\256.png"
+#	new file:   images/pho_yamamoto_4.jpg
+#	new file:   images/pho_yamamoto_name.gif
+#	new file:   images/title_top_ise_off.png
+#	new file:   images/title_top_ise_on.png
+#	new file:   images/title_top_sales_off.png
+#	new file:   images/title_top_sales_on.png
+#	new file:   images/title_top_sdb_off.png
+#	new file:   images/title_top_sdb_on.png
+#	new file:   images/title_top_shoprun_off.png
+#	new file:   images/title_top_shoprun_on.png
+#	modified:   images/topic.png
+#	new file:   imagese/1.jpg
+#	new file:   imagese/2.jpg
+#	new file:   imagese/3.jpg
+#	new file:   imagese/4.jpg
+#	new file:   imagese/5.jpg
+#	new file:   imagese/6.jpg
+#	new file:   imagese/xctx.jpg
+#	new file:   imagese/zplc.jpg
+#	modified:   imageswall/A1.jpg
+#	modified:   imageswall/A2.jpg
+#	modified:   imageswall/A3.jpg
+#	modified:   imageswall/A4.jpg
+#	modified:   imageswall/A5.jpg
+#	modified:   imageswall/A6.jpg
+#	modified:   imageswall/A7.jpg
+#	modified:   imageswall/A8.jpg
+#	modified:   imageswall/A9.jpg
+#	modified:   imageswall/C1.jpg
+#	modified:   imageswall/C2.jpg
+#	modified:   imageswall/C3.jpg
+#	modified:   imageswall/C4.jpg
+#	modified:   imageswall/C5.jpg
+#	modified:   imageswall/C6.jpg
+#	modified:   imageswall/C7.jpg
+#	modified:   imageswall/C8.jpg
+#	modified:   imageswall/C9.jpg
+#	modified:   imageswall/D1.jpg
+#	modified:   imageswall/D2.jpg
+#	modified:   imageswall/D3.jpg
+#	modified:   imageswall/D4.jpg
+#	modified:   imageswall/D5.jpg
+#	modified:   imageswall/D6.jpg
+#	modified:   imageswall/D7.jpg
+#	modified:   imageswall/D8.jpg
+#	modified:   imageswall/D9.jpg
+#	modified:   index.html
+#	new file:   js/jquery.orbit-1.2.3.min.js
+#	modified:   js/zoomer.js
+#	new file:   oneDA.html
+#	new file:   orbit/bullets.jpg
+#	new file:   orbit/left-arrow.png
+#	new file:   orbit/loading.gif
+#	new file:   orbit/mask-black.png
+#	new file:   orbit/pause-black.png
+#	new file:   orbit/right-arrow.png
+#	new file:   orbit/rotator-black.png
+#	new file:   orbit/timer-black.png
+#
+
