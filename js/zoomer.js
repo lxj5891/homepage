@@ -36,21 +36,21 @@
 				$(this).hover(function(){
 					$(this).css({'z-index':'10'});
 					$(this).find('img').addClass("hover").stop().animate({
-						marginTop:'-110px',marginLeft:'-110px',top:'50%',left:'50%',width:'160px',height:'214px',padding:'20px'
+						marginTop:'-110px',marginLeft:'-110px',top:'50%',left:'50%',width:'160px',height:'214px',padding:'5px'
 					},d.speedView);
 					if(d.altAnim==true){
 						var a=$(this).find("img").attr("alt");
 						if(a.length!=0){
 							$(this).prepend('<span class="title">'+a+'</span>');
 							$('.title').animate({
-								marginLeft:'-42px',marginTop:'140px'
+								marginLeft:'-58px',marginTop:'130px'
 							},d.speedTitle).css({'z-index':'10','position':'absolute','float':'left'})
 						}
 					}
 				},function(){
 					$(this).css({'z-index':'0'});
 					$(this).find('img').removeClass("hover").stop().animate({
-						marginTop:'0',marginLeft:'0',top:'0',left:'0',width:'100px',height:'134px',padding:'5px'
+						marginTop:'0',marginLeft:'0',top:'0',left:'0',width:'100px',height:'134px',padding:'0px'
 					},d.speedRemove);
 					$(this).find('.title').remove()
 				})
