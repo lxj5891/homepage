@@ -11,8 +11,8 @@
 #featured { 
 	width: 580px;
 	height: 430px;
-	left: 20px;
-	background: #000 url('../orbit/loading.gif') no-repeat center center;
+	left: 0px;
+	background: url('../images/1.jpg') no-repeat center center;
 	overflow: hidden; }
 #featured>img,  
 #featured>div,
@@ -27,6 +27,7 @@
 div.orbit-wrapper {
     width: 1px;
     height: 1px;
+	left: 60px;
     position: relative; }
 
 div.orbit {
@@ -79,7 +80,7 @@ span.rotator {
     height: 40px;
     position: absolute;
     top: 0;
-    left: -20px;
+    left: 0px;
     background: url(../orbit/rotator-black.png) no-repeat;
     z-index: 3; }
 
@@ -89,7 +90,7 @@ span.mask {
     height: 40px;
     position: absolute;
     top: 0;
-    right: 0;
+    right: 60;
     z-index: 2;
     overflow: hidden; }
 
@@ -136,7 +137,7 @@ span.pause.active {
 	padding: 7px 0;
     font-size: 13px;
     position: absolute;
-	left: 20px;
+	left: 0px;
     right: 0;
     bottom: 0;
     width: 100%; }
@@ -160,11 +161,11 @@ div.slider-nav span {
 
 div.slider-nav span.right {
     background: url(../orbit/right-arrow.png);
-    right: -20px; }
+    right: 0px; }
 
 div.slider-nav span.left {
     background: url(../orbit/left-arrow.png);
-    left: 20px; }
+    left: 0px; }
 
 /* BULLET NAV
    ================================================== */

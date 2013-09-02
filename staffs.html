@@ -10,110 +10,78 @@
     <script type="text/javascript" src="js/yahoo.js"></script>
     <script type="text/javascript" src="js/smoothscroll.js"></script>
 	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery.pin.js"</script>
+    <script type="text/javascript" src="js/jquery.pin.min.js"></script>
     <!--[if IE 6]>
     <script type="text/javascript" src="js/iepngfix_tilebg.js"></script>
     <![endif]-->
     <meta http-equiv="Content-Script-Type" content="text/javascript">
     <meta property="og:image" content="http://www.dreamarts.co.jp/images/head_dalogo.gif">
     <link rel="stylesheet" href="css/cn_style.css?20120615" type="text/css">
+	<link rel="stylesheet" href="css/orbit-1.2.3.css">
     <script type="text/javascript" src="js/ch_other.js"></script>
     <script type="text/javascript" src="js/smartRollover.js"></script>
     <script type="text/javascript" src="js/yahoo.js"></script>
     <!--[if !lte IE 6]><![IGNORE[--><!--[IGNORE[]]-->
     <script type="text/javascript" src="js/smoothscroll.js"></script>
 	<link rel="stylesheet" href="css/jquery-ui.css" type="text/css">
-	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/pictureBrows.css" />
+	<script type="text/javascript" src="js/jquery.orbit-1.2.3.min.js"></script>
     <!--<![endif]-->
     <script type="text/javascript" src="http://typesquare.com/accessor/script/typesquare.js?hk52knPAOhU%3D"></script>
-    <script>  
-		$(function() {    $( "#Evolusion" ).tabs();  }); 
+    <script type="text/javascript">
+			$(window).load(function() {
+				$('#featured').orbit();
+			});
 	</script>
-    <title>职业发展 - DreamArts Corporation.</title>
+    <title>DAC印象 - DreamArts Corporation.</title>
 </head>
 <body class="Company Pattern01 NaviCnCorporateOverview">
-<div id="Container">
+<div id="Container" class="Container">
     <div id="MainContents">
         <div class="MainTitle">
-            <h1>职业发展</h1>
+            <h1>DAC印象</h1>
+			<p>DAC倡导少数精英制，拒绝走平庸的路线。我们鼓励每一个员工的全面发展。只要你有想法，我们就不会束缚你，为你的梦想搭筑平台。</p>
         </div>
-		<div id="Evolusion">
-			<ul>
-				<li><a href="#tabs-1">培训理念</a></li>
-			 	<li><a href="#tabs-2">职业规划</a></li>
-			</ul>
-			<div class="Ev content">
-			 	<div id="tabs-1">
-					<h2>不做培训的俘虏，你将成为培训的主导者！</h2>
-					<p>经历过太多中国填鸭式的教育，即将毕业的你，想必也不愿这种模式陪伴一生！</p>
-					<p>我们不希望用专业的技能培训束缚你捕捉前沿技术的愿景；</p>
-					<p>我们不愿让你在培训中永远只是作为一名聆听者；</p>
-					<p>我们不鼓励你墨守成规，固步自封。</p>
-					<p>在DreamArts，你将获得更广阔的的培训平台——能动性培训，pull而非push。</p>
-					<p>我们不会教授员工什么新语言，哪项新技术，而更希望每名员工拥有饥饿精神。</p>
-					<p>发现自身不足或自我感兴趣的方面，进行全方位的自我培训，以培养自主学习的能力。</p>
-					<p>我们提供你展示自我培训成果的平台，与大家分享、与同事交流。</p>
-					<p>你将真正地从培训的被支配者，转变为培训的主导者，获得更多人钦羡的目光！</p>
-				</div>
-			 	<div id="tabs-2">
-					<h2>我们希望你的加入，也会成就你的辉煌！</h2>
-					<p>在DreamAtrs，我们不会以项目经理或区域经理等职位去界定你的职业发展，我们旨在尽力打造"现场力型"和"技术力型"人才。</p>
-					<h3>"技术力型"人才</h3>
-					<p>我们不阻碍你对技术的追求与钻研；只要你对技术够热爱，够执着。</p>
-					<p>DreamArts将为你铺设一条通往技术达人的道路，展现你的技术实力。</p>
-					<h3>"现场力型"人才</h3>
-					<p>"现场力"要求不仅能完成分内工作，还能从"当事人"角度出发思考如何解决问题。</p>
-					<p>如果你是一个不满足于现状，不满足于分配给你既定的任务，而勇于拓展，勇于突破，热衷于交流的人。</p>
-					<p>DreamArts将力求使你得到全方位的提升，从产品技术、团队意识、人际交往等方面着重培养，你将成为能够深入现场，具有超强执行力的人才。</p>
-
-				</div>
-			</div>
+	<div id="compayCulutre">
+		<div class="cul content">
+            <a name="DAValue" id="DAValue"><h2>我们的价值观</h2></a>
+            <img height="308px" width="625px" src="images/compCulture/DAValue.jpg" alt="价值观"/>
+            <a name="hireStandard" id="hireStandard"><h2>我们的人才观</h2></a>
+            <img height="308px" width="625px" src="images/compCulture/hireStandard.png" alt="人才观"/>
+		 
 		</div>
+	</div>
     <!-- /#SubNavi -->
     <div id="Global">
         <ul id="GlobalNaviDAC">
             <li class="DreamArts"><a href="/" title="株式会社ドリーム・アーツ">株式会社ドリーム・アーツ</a></li>
-            <li class="Home"><a href="/" title="Home">Home</a></li>
-            <li class="Solution"><a href="/solution/" title="印象DAC">公司介绍</a></li>
-            <li class="Case"><a href="companyValue.html" title="企业文化">企业文化</a></li>
-			<li class="Seminar"><a href="/company/news/" title="校园招聘">校园招聘</a></li>
-            <li class="News"><a href="evolusion.html" title="职业发展">职业发展</a></li>
-            <li class="Company On"><a href="/company/" title="Q&A">Q&A</a></li>
-            <li class="CategoryTop"><a href="/company/" title="Company">公司简介</a></li>
+            <li class="Home"><a href="index.html" title="首页">首页</a></li>
+            <li class="Solution"><a href="companyProfile.html" title="公司掠影">公司掠影</a></li>
+            <li class="Case"><a href="companyValue.html" title="DAC印象">DAC印象</a></li>
+			<li class="Seminar"><a href="campusRecruitment.html" title="校园招聘">校园招聘</a></li>
+            <li class="News"><a href="employeeAppearance.html" title="员工风采">员工风采</a></li>
+            <li class="Company On"><a href="QA.html" title="Q&A">Q&A</a></li>
         </ul>
         <ul id="OptionNavi">
             <li class="Japanese"><a href="/company/">Japanese</a></li>
             <li class="English CnEnglish"><a href="/english/">English</a></li>
         </ul>
     </div>
-    <div id="Path">
-        <ul>
-            <li class="Home"><a href="/">首页</a></li>
-            <li>职业发展</li>
-        </ul>
-    </div>
-    <div id="SubNavi">
-
+    <div id="SubNavi" class="pinned">
         <ul class="First">
-            <li id="NaviTitle"><a href="/chinese/">公司简介</a></li>
+            <li id="NaviTitle">印象DAC</li>
             <li class="NaviCnCorporateOverview">
-                <div><a href="/chinese/">印象DAC</a></div>
+                <div><a href="companyValue.html">人才与价值观</a></div>
             </li>
             <li class="NaviCnMessage">
-                <div><a href="companyValue.html">企业文化</a></div>
+                <div><a href="companyCulture/train.html">我们的培训</a></div>
             </li>
-            <li class="NaviCnBusiness">
-                <div><a href="/chinese/business.html">校园招聘</a></div>
+            <li class="NaviCnMessage">
+                <div><a href="companyCulture/env.html">工作环境</a></div>
             </li>
-            <li class="NaviCnStaff">
-                <div><a href="evolusion.html">职业发展</a></div>
-            </li>
-            <!--li class="NaviCnRecruit"><div><a href="/chinese/recruit.html">东京总部应届生招聘信息</a></div></li-->
-            <!--20120905非表示に変更-->
-<!--            <li class="NaviCnRecruitDalian">
-                <div><a href="/chinese/recruit_dalian.html">Q&A</a></div>-->
-            </li>
-            <li class="NaviCnFaq">
-                <div><a href="/chinese/faq.html">招聘Q&amp;A</a></div>
+            <li class="NaviCnMessage">
+                <div><a href="companyCulture/bonus.html">公司活动</a></div>
             </li>
         </ul>
 
@@ -122,8 +90,6 @@
                 <li></li>
             </ul>
         </div>
-
-
     </div>
     <div id="Footer">
         <div class="Help">
@@ -136,6 +102,8 @@
             <!-- /#Help --></div>
 
         <!-- /#Footer --></div>
+
+    <script> $(".pinned").pin({containerSelector: ".Container", minWidth: 940})</script>
     <script type="text/javascript">
         var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
         document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
@@ -206,8 +174,5 @@
 
     <!-- /#Container -->
 </div>
-
-<embed id="xunlei_com_thunder_helper_plugin_d462f475-c18e-46be-bd10-327458d045bd"
-       type="application/thunder_download_plugin" height="0" width="0">
 </body>
 </html>

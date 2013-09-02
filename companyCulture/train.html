@@ -5,102 +5,133 @@
     <meta property="og:image" content="http://www.dreamarts.co.jp/images/head_dalogo.gif">
     <link rel="stylesheet" href="../css/layout.css?20130620" type="text/css">
     <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script>
-    <script type="text/javascript" src="../js/other.js"></script>
+    <script type="text/javascript" src=../js/other.js"></script>
     <script type="text/javascript" src="../js/smartRollover.js"></script>
     <script type="text/javascript" src="../js/yahoo.js"></script>
-    <script type="text/javascript" src="../js/smoothscroll.js"></script>
 	<script type="text/javascript" src="../js/jquery-1.7.2.min.js"></script>
-    <script type="text/javascript" src="../js/jquery.pin.js"></script>
-    <script type="text/javascript" src="../js/jquery.pin.min.js"></script>
     <!--[if IE 6]>
     <script type="text/javascript" src="../js/iepngfix_tilebg.js"></script>
     <![endif]-->
     <meta http-equiv="Content-Script-Type" content="text/javascript">
     <meta property="og:image" content="http://www.dreamarts.co.jp/images/head_dalogo.gif">
     <link rel="stylesheet" href="../css/cn_style.css?20120615" type="text/css">
-	<link rel="stylesheet" href="../css/orbit-1.2.3.css">
+	<link rel="stylesheet" href="../css/train.css" type="text/css" media="screen"/>
     <script type="text/javascript" src="../js/ch_other.js"></script>
     <script type="text/javascript" src="../js/smartRollover.js"></script>
     <script type="text/javascript" src="../js/yahoo.js"></script>
+	<script type="text/javascript" src="../js/Note_this_400.font.js"></script>
+	<script type="text/javascript" src="../js/ChunkFive_400.font.js"></script>
+	<script type="text/javascript" src="../js/cufon-yui.js"></script>
+	<script src="booklet/jquery.easing.1.3.js" type="text/javascript"></script>
+	<script src="booklet/jquery.booklet.1.1.0.min.js" type="text/javascript"></script>
+
+	<link href="booklet/jquery.booklet.1.1.0.css" type="text/css" rel="stylesheet" media="screen" />
     <!--[if !lte IE 6]><![IGNORE[--><!--[IGNORE[]]-->
-    <script type="text/javascript" src="../js/smoothscroll.js"></script>
-	<link rel="stylesheet" href="../css/jquery-ui.css" type="text/css">
-	<link rel="stylesheet" type="text/css" href="../css/pictureBrows.css" />
-	<script type="text/javascript" src="../js/jquery.orbit-1.2.3.min.js"></script>
     <!--<![endif]-->
     <script type="text/javascript" src="http://typesquare.com/accessor/script/typesquare.js?hk52knPAOhU%3D"></script>
-    <script type="text/javascript">
-			$(window).load(function() {
-				$('#featured').orbit();
-			});
+	<script type="text/javascript">
+		Cufon.replace('h1,p,.b-counter');
+		Cufon.replace('.book_wrapper a', {hover:true});
+		Cufon.replace('.title', {textShadow: '1px 1px #C59471', fontFamily:'ChunkFive'});
+		Cufon.replace('.reference a', {textShadow: '1px 1px #C59471', fontFamily:'ChunkFive'});
+		Cufon.replace('.loading', {textShadow: '1px 1px #000', fontFamily:'ChunkFive'});
 	</script>
+	
+	
+
     <title>DAC印象 - DreamArts Corporation.</title>
 </head>
 <body class="Company Pattern01 NaviCnCorporateOverview">
-<div id="Container" class="Container">
+<div id="Container">
     <div id="MainContents">
         <div class="MainTitle">
             <h1>DAC印象</h1>
-			<p>DAC倡导少数精英制，拒绝走平庸的路线。我们鼓励每一个员工的全面发展。只要你有想法，我们就不会束缚你，为你的梦想搭筑平台。</p>
+			<h2>我们的培训</h2>
         </div>
-	<div id="compayCulutre">
-		<div class="cul content">
-            <h2>我们的培训</h2>
-            <p>不做培训的俘虏，你将成为培训的主导者！</p>
-            <p>加一段引言</p>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我是王海博,吉林大学软件学院13届本科毕业生,去年11月来DAC报道实习,
-                今年7月份正式入职,所以深有体会的是我在DAC实习期间的点滴感受。
-                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;作为新人非常吸引我的是公司的实习理念,很惊奇在实习期间不会有
-                人要求你每天做什么？要得出什么？而是完全由你主导，自己决定具体的实习内容和日程，然后主动地去讨论研
-                究，尽可能的获取身边经验者的帮助，最终拿出一个让周围人感到惊艳的成果。
-                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;以我自身经历，初进公司新人被分成了几个小组，
-                我们小组三人负责一个公司内部EIP产品性能的研究。我们经过几天激烈的讨论最后制定了日程和阶段性的成果，
-                在得到经验者的认可后开展实施，包括搭建产品和性能测试环境，场景设计，编写脚本，监视性能，研究分析性
-                能问题等等，最后我们发现了产品中存在性能问题的机能点并对其提出了改善的意见。整个三个月的研究期间，
-                不仅熟悉了公司的既存产品，也对技术上的各个层面有了更深的认识。主导是实习的主要理念，最终锻炼独立思
-                考和快速解决问题的能力，也对自己未来的职业发展有了更清醒的认识和规划。
-                DAC是一个可以创造和实现梦想的小家庭，欢迎你的加入。</p>
+			<div class="book_wrapper">
+			<a id="next_page_button"></a>
+			<a id="prev_page_button"></a>
+			<div id="loading" class="loading">Loading pages...</div>
+			<div id="mybook" style="display:none;">
+				<div class="b-load">
+					<div>
+						<img src="images/1.jpg" alt=""/>
+						<h1>与众不同的培训</h1>
+						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;进入公司后，我们会安排为期3~4个月的培训，一般2~3人一组，一起合作完成一个从未接触过的项目。
+						当然在此期间会有公司的前辈一路指导，但从项目的计划，到实施，再到结束一直都由自己主导。</p>
+					</div>
+					<div>
+						<img src="images/2.jpg" alt="" />
+						<h1>你的收获</h1>
+						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;培训期间，不会有人要求你每天做什么？要得出什么？而是完全由你主导，
+						自己决定具体的工作内容和日程，然后主动地去讨论研究，尽可能的获取身边经验者的帮助，最终拿出一个让周围人感到惊艳的成果。
+						你可以充分发挥个人的想法、能力，能够极大地锻炼你的沟通能力与合作意识。</p>
+					</div>
+					<div>
+						<img src="images/3.jpg" alt="" />
+						<h1>亲历培训</h1>
+						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我是王海博,吉林大学软件学院13届本科毕业生。初进公司的我，连同其他一起入职的新人被分成了几个小组，
+						我们小组三人负责一个公司内部EIP产品性能的研究。在经过几天激烈的讨论后制定了日程和阶段性的成果，
+						得到经验者的认可后我们便开展实施，包括搭建产品和性能测试环境，场景设计，编写脚本，监视性能，
+						研究分析性能问题等等，最后我们发现了产品中存在性能问题的机能点并对其提出了改善的意见。</p>
+					</div>
+					<div>
+						<h1>我的成果</h1>
+						<img src="images/4.jpg" alt="" />
+					</div>
+					<div>
+						<h1>我的感受</h1>
+						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我叫管世明，2012年毕业于大连理工大学软件学院。12年11月入社，培训期间，我接触了各方面知识：
+						从代码到服务器架设，性能，再到系统底层等等。以前觉得非常遥不可及的概念、名词，当在我手中实现时，
+						有种恍然大悟，拨开云雾见月明的感觉。在这里不会日复一日地做着同样的枯燥的工作，每天都能遇到不同的挑战，
+						当然遇到困难时也会有好多大拿会非常热心的帮助我解决问题。</p>
+						<img src="images/5.jpg" alt="" />
+					</div>
+					<div>
+						<img src="images/6.jpg" alt="" />
+						<h1>给予你的认识</h1>
+						<p>来到这里学到的不仅仅是知识，还会大大提高各方面的能力。公司一块聚餐、游玩的机会也非常多。
+						在这样一个技术氛围强，大家和谐相处的环境工作，我们相信每个人都会非常地享受。</p>
+						<p>这里是一个充满梦想,又给你实现梦想的地方，你的心有多大，DAC给你的舞台就会有多大。</p>
+					</div>
+				</div>
+			</div>
 		</div>
-	</div>
     <!-- /#SubNavi -->
     <div id="Global">
         <ul id="GlobalNaviDAC">
             <li class="DreamArts"><a href="/" title="株式会社ドリーム・アーツ">株式会社ドリーム・アーツ</a></li>
-            <li class="Home"><a href="../index.html" title="首页">首页</a></li>
-            <li class="Solution"><a href="../companyProfile.html" title="公司掠影">公司掠影</a></li>
-            <li class="Case"><a href="../companyValue.html" title="DAC印象">DAC印象</a></li>
-			<li class="Seminar"><a href="../campusRecruitment.html" title="校园招聘">校园招聘</a></li>
-            <li class="News"><a href="../employeeAppearance.html" title="员工风采">员工风采</a></li>
-            <li class="Company On"><a href="../QA.html" title="Q&A">Q&A</a></li>
+            <li class="Home"><a href="../index.html">首页</a></li>
+            <li class="Solution"><a href="../companyProfile.html" >公司掠影</a></li>
+            <li class="Case"><a href="../companyValue.html">DAC印象</a></li>
+			<li class="Seminar"><a href="../campusRecruitment.html">校园招聘</a></li>
+            <li class="News"><a href="../employeeAppearance.html" >员工风采</a></li>
+            <li class="Company On"><a href="../QA.html">Q&A</a></li>
         </ul>
         <ul id="OptionNavi">
             <li class="Japanese"><a href="/company/">Japanese</a></li>
             <li class="English CnEnglish"><a href="/english/">English</a></li>
         </ul>
     </div>
-    <div id="SubNavi" class="pinned">
+
+    <div id="SubNavi">
         <ul class="First">
-            <li id="NaviTitle">印象DAC</li>
+            <li id="NaviTitle">DAC印象</li>
             <li class="NaviCnMessage">
-                <div><a href="../companyValue.html">人才与价值观</a></div>
+                <div><a href="../companyValue.html">我们的观念</a></div>
+            </li>
+            <li class="NaviCnMessage">
+                <div><a href="env.html">工作环境</a></div>
             </li>
             <li class="NaviCnCorporateOverview">
-                <div><a href="../companyCulture/train.html">我们的培训</a></div>
+                <div><a href="train.html">我们的培训</a></div>
             </li>
             <li class="NaviCnMessage">
-                <div><a href="../companyCulture/env.html">工作环境</a></div>
-            </li>
-            <li class="NaviCnMessage">
-                <div><a href="../companyCulture/bonus.html">公司活动</a></div>
+                <div><a href="bonus.html">我们的活动</a></div>
             </li>
         </ul>
-
-        <div id="Promotion" class="ClearFix">
-            <ul>
-                <li></li>
-            </ul>
-        </div>
     </div>
+	
     <div id="Footer">
         <div class="Help">
             <ul>
@@ -112,8 +143,6 @@
             <!-- /#Help --></div>
 
         <!-- /#Footer --></div>
-
-    <script> $(".pinned").pin({containerSelector: ".MainContents", minWidth: 940})</script>
     <script type="text/javascript">
         var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
         document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
@@ -184,5 +213,79 @@
 
     <!-- /#Container -->
 </div>
+<script type="text/javascript">
+			$(function() {
+				var $mybook 		= $('#mybook');
+				var $bttn_next		= $('#next_page_button');
+				var $bttn_prev		= $('#prev_page_button');
+				var $loading		= $('#loading');
+				var $mybook_images	= $mybook.find('img');
+				var cnt_images		= $mybook_images.length;
+				var loaded			= 0;
+				//preload all the images in the book,
+				//and then call the booklet plugin
+
+				$mybook_images.each(function(){
+					var $img 	= $(this);
+					var source	= $img.attr('src');
+					$('<img/>').load(function(){
+						++loaded;
+						if(loaded == cnt_images){
+							$loading.hide();
+							$bttn_next.show();
+							$bttn_prev.show();
+							$mybook.show().booklet({
+								name:               null,                            // name of the booklet to display in the document title bar
+								width:              800,                             // container width
+								height:             500,                             // container height
+								speed:              600,                             // speed of the transition between pages
+								direction:          'LTR',                           // direction of the overall content organization, default LTR, left to right, can be RTL for languages which read right to left
+								startingPage:       0,                               // index of the first page to be displayed
+								easing:             'easeInOutQuad',                 // easing method for complete transition
+								easeIn:             'easeInQuad',                    // easing method for first half of transition
+								easeOut:            'easeOutQuad',                   // easing method for second half of transition
+
+								closed:             true,                           // start with the book "closed", will add empty pages to beginning and end of book
+								closedFrontTitle:   null,                            // used with "closed", "menu" and "pageSelector", determines title of blank starting page
+								closedFrontChapter: null,                            // used with "closed", "menu" and "chapterSelector", determines chapter name of blank starting page
+								closedBackTitle:    null,                            // used with "closed", "menu" and "pageSelector", determines chapter name of blank ending page
+								closedBackChapter:  null,                            // used with "closed", "menu" and "chapterSelector", determines chapter name of blank ending page
+								covers:             false,                           // used with  "closed", makes first and last pages into covers, without page numbers (if enabled)
+
+								pagePadding:        10,                              // padding for each page wrapper
+								pageNumbers:        true,                            // display page numbers on each page
+
+								hovers:             false,                            // enables preview pageturn hover animation, shows a small preview of previous or next page on hover
+								overlays:           false,                            // enables navigation using a page sized overlay, when enabled links inside the content will not be clickable
+								tabs:               false,                           // adds tabs along the top of the pages
+								tabWidth:           60,                              // set the width of the tabs
+								tabHeight:          20,                              // set the height of the tabs
+								arrows:             false,                           // adds arrows overlayed over the book edges
+								cursor:             'pointer',                       // cursor css setting for side bar areas
+
+								hash:               false,                           // enables navigation using a hash string, ex: #/page/1 for page 1, will affect all booklets with 'hash' enabled
+								keyboard:           true,                            // enables navigation with arrow keys (left: previous, right: next)
+								next:               $bttn_next,          			// selector for element to use as click trigger for next page
+								prev:               $bttn_prev,          			// selector for element to use as click trigger for previous page
+
+								menu:               null,                            // selector for element to use as the menu area, required for 'pageSelector'
+								pageSelector:       false,                           // enables navigation with a dropdown menu of pages, requires 'menu'
+								chapterSelector:    false,                           // enables navigation with a dropdown menu of chapters, determined by the "rel" attribute, requires 'menu'
+
+								shadows:            true,                            // display shadows on page animations
+								shadowTopFwdWidth:  166,                             // shadow width for top forward anim
+								shadowTopBackWidth: 166,                             // shadow width for top back anim
+								shadowBtmWidth:     50,                              // shadow width for bottom shadow
+
+								before:             function(){},                    // callback invoked before each page turn animation
+								after:              function(){}                     // callback invoked after each page turn animation
+							});
+							Cufon.refresh();
+						}
+					}).attr('src',source);
+				});
+				
+			});
+        </script>
 </body>
 </html>
