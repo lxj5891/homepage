@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" name="Default" comment="添加了海博">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/companyCulture/bonus.html" afterPath="$PROJECT_DIR$/companyCulture/bonus.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/companyValue.html" afterPath="$PROJECT_DIR$/companyValue.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/companyCulture/env.html" afterPath="$PROJECT_DIR$/companyCulture/env.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/companyCulture/train.html" afterPath="$PROJECT_DIR$/companyCulture/train.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" name="Default" comment="添加了海博" />
     <ignored path="homepage.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/toppage.css" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1375845346374" ignored="false" />
@@ -392,7 +385,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="0" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16547619" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
