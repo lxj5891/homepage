@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" name="Default" comment="添加了海博" />
+    <list default="true" id="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" name="Default" comment="添加了海博">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/campusRecruitment.html" afterPath="$PROJECT_DIR$/campusRecruitment.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/employeeAppearance.html" afterPath="$PROJECT_DIR$/employeeAppearance.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/post.html" afterPath="$PROJECT_DIR$/post.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/process.html" afterPath="$PROJECT_DIR$/process.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/salary.html" afterPath="$PROJECT_DIR$/salary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="homepage.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/toppage.css" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1375845346374" ignored="false" />
@@ -13,7 +20,7 @@
     <file path="/agent.js" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1376203239168" ignored="false" />
     <file path="$PROJECT_DIR$/../Dev/root/qcheng/views/agent/channels/channel_list.html" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1376203401999" ignored="false" />
     <file path="/channel_list.html" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1376203401999" ignored="false" />
-    <file path="/Dummy.txt" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1378096357193" ignored="false" />
+    <file path="/Dummy.txt" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1378186115855" ignored="false" />
     <file path="$PROJECT_DIR$/../Dev/root/qcheng/public/javascripts/dac/dac.pagination.js" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1376204819621" ignored="false" />
     <file path="$PROJECT_DIR$/../Dev/root/qcheng/public/javascripts/dac/js.ts" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1376204944898" ignored="false" />
     <file path="$PROJECT_DIR$/../Dev/root/qcheng/public/mvc/news/news.app.js" changelist="35a6e520-5dd4-4f61-95eb-3a8a480cd30d" time="1376205797804" ignored="false" />
@@ -91,11 +98,8 @@
       <file leaf-file-name="companyValue.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/companyValue.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="70" selection-start="3721" selection-end="3721" vertical-scroll-proportion="-25.785715">
-              <folding>
-                <element signature="e#5864#6236#0" expanded="false" />
-                <element signature="e#6398#6428#0" expanded="false" />
-              </folding>
+            <state line="72" column="28" selection-start="3583" selection-end="3583" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -103,7 +107,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="61" selection-start="800" selection-end="800" vertical-scroll-proportion="-6.785714">
+            <state line="11" column="8" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -112,7 +116,7 @@
       <file leaf-file-name="bonus.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/companyCulture/bonus.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="56" selection-start="3631" selection-end="3631" vertical-scroll-proportion="-6.821429">
+            <state line="66" column="56" selection-start="3467" selection-end="3467" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -121,7 +125,7 @@
       <file leaf-file-name="env.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/companyCulture/env.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="56" selection-start="3392" selection-end="3392" vertical-scroll-proportion="-8.821428">
+            <state line="56" column="56" selection-start="3228" selection-end="3228" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -130,57 +134,52 @@
       <file leaf-file-name="employeeAppearance.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/employeeAppearance.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="18" selection-start="3186" selection-end="3186" vertical-scroll-proportion="0.0">
+            <state line="201" column="85" selection-start="9513" selection-end="9513" vertical-scroll-proportion="-4.071429">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="staff-intro.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/staff-intro.css">
+      <file leaf-file-name="post.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="4" selection-start="26" selection-end="39" vertical-scroll-proportion="0.0">
+            <state line="139" column="85" selection-start="5153" selection-end="5153" vertical-scroll-proportion="-6.785714">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="companyCulture-old.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../homepage back/companyCulture-old.html">
+      <file leaf-file-name="process.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/process.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="114" selection-start="4859" selection-end="5640" vertical-scroll-proportion="0.0">
+            <state line="205" column="85" selection-start="7328" selection-end="7328" vertical-scroll-proportion="-14.928572">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="thickbox.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/thickbox.css">
+      <file leaf-file-name="salary.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/salary.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1377586941305" expanded="true" signature="1783:1903" placeholder="{...}" />
-                <marker date="1377586941305" expanded="true" signature="2156:2309" placeholder="{...}" />
-                <marker date="1377586941305" expanded="true" signature="3342:3495" placeholder="{...}" />
-                <marker date="1377586941305" expanded="true" signature="3779:3899" placeholder="{...}" />
-              </folding>
+            <state line="122" column="85" selection-start="4669" selection-end="4669" vertical-scroll-proportion="0.27718833">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="train.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="train.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/companyCulture/train.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="61" selection-start="3226" selection-end="3226" vertical-scroll-proportion="0.35278514">
+            <state line="70" column="57" selection-start="3357" selection-end="3357" vertical-scroll-proportion="-0.6785714">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="companyProfile.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/companyProfile.html">
+      <file leaf-file-name="campusRecruitment.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/campusRecruitment.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="31" selection-start="2429" selection-end="2429" vertical-scroll-proportion="0.0">
+            <state line="103" column="85" selection-start="4584" selection-end="4584" vertical-scroll-proportion="-11.642858">
               <folding />
             </state>
           </provider>
@@ -204,22 +203,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/css/gnavi.css" />
-        <option value="$PROJECT_DIR$/zhaopin.html" />
-        <option value="$PROJECT_DIR$/css/base.css" />
         <option value="$PROJECT_DIR$/chinese.html" />
         <option value="$PROJECT_DIR$/compayCulture/companyCulture.html" />
         <option value="$PROJECT_DIR$/companyCulture -v-iframe.html" />
         <option value="$PROJECT_DIR$/../jquery.pin/index.html" />
-        <option value="$PROJECT_DIR$/employeeAppearance.html" />
         <option value="$PROJECT_DIR$/companyProfile.html" />
-        <option value="$PROJECT_DIR$/campusRecruitment.html" />
         <option value="$PROJECT_DIR$/companyCulture.html" />
         <option value="$PROJECT_DIR$/companyValue.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/companyCulture/bonus.html" />
         <option value="$PROJECT_DIR$/companyCulture/env.html" />
         <option value="$PROJECT_DIR$/companyCulture/train.html" />
+        <option value="$PROJECT_DIR$/campusRecruitment.html" />
+        <option value="$PROJECT_DIR$/employeeAppearance.html" />
+        <option value="$PROJECT_DIR$/post.html" />
+        <option value="$PROJECT_DIR$/process.html" />
+        <option value="$PROJECT_DIR$/salary.html" />
       </list>
     </option>
   </component>
@@ -256,7 +255,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -305,6 +303,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -314,8 +313,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -392,7 +391,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297491" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31796116" sideWeight="0.67142856" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32281554" sideWeight="0.67142856" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -470,26 +469,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/gnavi.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="21" selection-start="4021" selection-end="4021" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="182" column="32" selection-start="5836" selection-end="5836" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../jquery.pin/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="145" column="71" selection-start="8717" selection-end="8765" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/campusRecruitment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="33" selection-start="4702" selection-end="4702" vertical-scroll-proportion="0.9610895" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/companyBaas.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="71" selection-start="736" selection-end="736" vertical-scroll-proportion="-0.0" />
@@ -502,7 +481,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/companyProfile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="31" selection-start="2429" selection-end="2429" vertical-scroll-proportion="0.0">
+        <state line="49" column="31" selection-start="2253" selection-end="2253" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -525,55 +504,80 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1377586941305" expanded="true" signature="1783:1903" placeholder="{...}" />
-            <marker date="1377586941305" expanded="true" signature="2156:2309" placeholder="{...}" />
-            <marker date="1377586941305" expanded="true" signature="3342:3495" placeholder="{...}" />
-            <marker date="1377586941305" expanded="true" signature="3779:3899" placeholder="{...}" />
+            <marker date="1377586941305" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1377586941305" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1377586941305" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1377586941305" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/employeeAppearance.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="18" selection-start="3186" selection-end="3186" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/companyValue.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="70" selection-start="3721" selection-end="3721" vertical-scroll-proportion="-25.785715">
-          <folding>
-            <element signature="e#5864#6236#0" expanded="false" />
-            <element signature="e#6398#6428#0" expanded="false" />
-          </folding>
+        <state line="72" column="28" selection-start="3583" selection-end="3583" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/companyCulture/bonus.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="56" selection-start="3631" selection-end="3631" vertical-scroll-proportion="-6.821429">
+        <state line="66" column="56" selection-start="3467" selection-end="3467" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/companyCulture/env.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="56" selection-start="3392" selection-end="3392" vertical-scroll-proportion="-8.821428">
+        <state line="56" column="56" selection-start="3228" selection-end="3228" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="61" selection-start="800" selection-end="800" vertical-scroll-proportion="-6.785714">
+        <state line="11" column="8" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/companyCulture/train.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="61" selection-start="3226" selection-end="3226" vertical-scroll-proportion="0.35278514">
+        <state line="70" column="57" selection-start="3357" selection-end="3357" vertical-scroll-proportion="-0.6785714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/campusRecruitment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="85" selection-start="4584" selection-end="4584" vertical-scroll-proportion="-11.642858">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employeeAppearance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="201" column="85" selection-start="9513" selection-end="9513" vertical-scroll-proportion="-4.071429">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="139" column="85" selection-start="5153" selection-end="5153" vertical-scroll-proportion="-6.785714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/process.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="205" column="85" selection-start="7328" selection-end="7328" vertical-scroll-proportion="-14.928572">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/salary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="122" column="85" selection-start="4669" selection-end="4669" vertical-scroll-proportion="0.27718833">
           <folding />
         </state>
       </provider>
